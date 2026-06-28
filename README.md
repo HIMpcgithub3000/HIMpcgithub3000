@@ -232,3 +232,9 @@ Star ⭐ the repos if they helped you!
   <a href="./CONTRIBUTING.md">Collaboration</a> ·
   <a href="./SECURITY.md">Security</a>
 </p>
+
+<br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E30FF,100:FF516E&height=100&section=footer&width=100" alt="Profile footer wave"/>
+</p>

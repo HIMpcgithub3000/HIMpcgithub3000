@@ -146,47 +146,47 @@
   </path>
 
   <!-- panel 1 -->
-  <text x="95" y="210" class="section">INTELLIGENT SYS</text>
-  <text x="95" y="233" class="sectionSub">Applications • Models • Systems</text>
+  <text x="95" y="210" class="section">EXPERIENCE</text>
+  <text x="95" y="233" class="sectionSub">SDE &amp; Frontend Internships</text>
 
   <circle cx="102" cy="267" r="3.5" class="bullet"/>
-  <text x="118" y="272" class="item">AI-driven applications</text>
+  <text x="118" y="272" class="item">Blostem SDE Intern (FastAPI &amp; LLMs)</text>
 
   <circle cx="102" cy="297" r="3.5" class="bullet"/>
-  <text x="118" y="302" class="item">Data analysis &amp; ML modeling</text>
+  <text x="118" y="302" class="item">UptoSkills Frontend Intern (React)</text>
 
   <circle cx="102" cy="327" r="3.5" class="bullet"/>
-  <text x="118" y="332" class="item">Model evaluation &amp; testing</text>
+  <text x="118" y="332" class="item">PitchX Full Stack Intern</text>
 
   <circle cx="102" cy="357" r="3.5" class="bullet"/>
-  <text x="118" y="362" class="item">Logical problem solving</text>
+  <text x="118" y="362" class="item">Reduced manual usage audits by 93%</text>
 
   <!-- panel 2 -->
   <text x="465" y="210" class="section">INTERESTS</text>
-  <text x="465" y="233" class="sectionSub">AI • ML • Optimization</text>
+  <text x="465" y="233" class="sectionSub">AI • LLM • RAG • VOICE</text>
 
   <circle cx="472" cy="267" r="3.5" class="bullet"/>
-  <text x="488" y="272" class="item">Artificial Intelligence &amp; ML</text>
+  <text x="488" y="272" class="item">15-language Voice &amp; RAG assistant</text>
 
   <circle cx="472" cy="297" r="3.5" class="bullet"/>
-  <text x="488" y="302" class="item">Data Analysis &amp; Modeling</text>
+  <text x="488" y="302" class="item">LLM DAG workflow builder (React Flow)</text>
 
   <circle cx="472" cy="327" r="3.5" class="bullet"/>
-  <text x="488" y="332" class="item">System Optimization</text>
+  <text x="488" y="332" class="item">Web Speech API, STT/TTS &amp; VAD</text>
 
   <circle cx="472" cy="357" r="3.5" class="bullet"/>
-  <text x="488" y="362" class="item">Continuous Learning &amp; R&amp;D</text>
+  <text x="488" y="362" class="item">FAISS, Chroma, RRF &amp; Reranking</text>
 
   <!-- panel 3 -->
   <text x="835" y="210" class="section">PHILOSOPHY</text>
-  <text x="835" y="233" class="sectionSub">Principles &amp; mindset</text>
+  <text x="835" y="233" class="sectionSub">EDUCATION &amp; SKILLS</text>
 
   <circle cx="842" cy="267" r="3.5" class="bullet"/>
-  <text x="858" y="272" class="item">Curiosity-first mindset</text>
+  <text x="858" y="272" class="item">B.Tech Computer Science student</text>
 
   <circle cx="842" cy="307" r="3.5" class="bullet"/>
-  <text x="858" y="312" class="item">Think in systems &amp; build clean</text>
+  <text x="858" y="312" class="item">React, Next.js, Tailwind, Zustand</text>
 
   <circle cx="842" cy="347" r="3.5" class="bullet"/>
-  <text x="858" y="352" class="item">Optimize for real-world impact</text>
+  <text x="858" y="352" class="item">Python, FastAPI, Node.js, Prisma</text>
 </svg>

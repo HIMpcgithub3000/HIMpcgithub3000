@@ -30,11 +30,11 @@
 </p>
 
 <p align="center">
-  This page maps the technical domains behind my projects and labs: machine learning models, secure data encoding, full-stack inventory analytics, and interactive financial advisors.
+  This page maps the technical domains behind my projects and labs: machine learning models, secure data retrieval, full-stack inventory analytics, and interactive financial advisors.
 </p>
 
 <p align="center">
-    <a href="https://github.com/HIMpcgithub3000/Glaucoma_Dectection_Machine_learning">
+    <a href="https://github.com/HIMpcgithub3000/Vernacular-FD-Advisor">
         <img src="../docs/img/mlp_space.svg" alt="Neural lab and AI domain visualization" />
     </a>
 </p>
@@ -49,9 +49,9 @@
 
 | Lab | Purpose |
 | --- | --- |
-| [Glaucoma ML Lab](https://github.com/HIMpcgithub3000/Glaucoma_Dectection_Machine_learning) | Identify glaucoma from eye scans using deep learning. |
-| [Steganography Lab](https://github.com/HIMpcgithub3000/steganography_him) | Hide messages invisibly in image and audio files. |
-| [Stock Analyst Lab](https://github.com/HIMpcgithub3000/Quantitative_analysis_of_stocks) | Apply quantitative models to analyze stock trends. |
+| [Vernacular FD Advisor](https://github.com/HIMpcgithub3000/Vernacular-FD-Advisor) | 15-Language voice assistant with citation-grounded RAG. |
+| [NextFlow Builder](https://github.com/HIMpcgithub3000/nextflow) | Visual DAG workflow builder with topological execution. |
+| [MediMind Console](https://github.com/HIMpcgithub3000/medimind) | Document-QA frontend with retrieval evaluation console. |
 
 ## Engineering Principles
 

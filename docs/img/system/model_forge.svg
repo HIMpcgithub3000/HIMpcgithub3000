@@ -15,9 +15,9 @@
       <animateTransform attributeName="transform" type="rotate" from="0 97 82" to="360 97 82" dur="9s" repeatCount="indefinite"/>
     </circle>
   </g>
-  <text x="280" y="74" class="meta">FINANCIAL ANALYSIS TOOL</text>
-  <text x="280" y="126" class="title">STOCK ANALYST</text>
-  <text x="280" y="161" class="desc">Apply quantitative models to analyze stock trends.</text>
-  <g transform="translate(280 190)"><rect width="118" height="26" rx="13" fill="#1e1b4b" stroke="#FF516E" stroke-opacity=".55"/><text x="59" y="18" text-anchor="middle" class="tag">QUANT</text></g>
-  <g transform="translate(412 190)"><rect width="104" height="26" rx="13" fill="#1e1b4b" stroke="#2E30FF" stroke-opacity=".55"/><text x="52" y="18" text-anchor="middle" class="tag">FINANCE</text></g>
+  <text x="280" y="74" class="meta">HEALTHCARE RAG UI</text>
+  <text x="280" y="126" class="title">MEDIMIND</text>
+  <text x="280" y="161" class="desc">Document-QA frontend with retrieval evaluation console.</text>
+  <g transform="translate(280 190)"><rect width="118" height="26" rx="13" fill="#1e1b4b" stroke="#FF516E" stroke-opacity=".55"/><text x="59" y="18" text-anchor="middle" class="tag">HEALTH</text></g>
+  <g transform="translate(412 190)"><rect width="104" height="26" rx="13" fill="#1e1b4b" stroke="#2E30FF" stroke-opacity=".55"/><text x="52" y="18" text-anchor="middle" class="tag">EVAL</text></g>
 </svg>

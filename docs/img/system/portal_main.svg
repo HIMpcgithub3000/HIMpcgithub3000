@@ -62,7 +62,7 @@
 
   <text x="600" y="90" text-anchor="middle" class="kicker">PRIMARY SYSTEM PORTAL</text>
   <text x="600" y="170" text-anchor="middle" class="title">HIMANSHU SYSTEM PORTAL</text>
-  <text x="600" y="220" text-anchor="middle" class="desc">Projects | Socials | Skills | Stats | About Me</text>
+  <text x="600" y="220" text-anchor="middle" class="desc">Frontend &amp; AI Developer Portal</text>
 
   <g transform="translate(330 282)">
     <rect width="130" height="28" rx="14" fill="#0f172a" stroke="#2E30FF" stroke-opacity="0.45"/>

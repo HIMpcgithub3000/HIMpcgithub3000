@@ -13,9 +13,9 @@
     <circle cx="77" cy="42" r="7" fill="#2E30FF"><animate attributeName="r" values="6;10;6" dur="2.4s" repeatCount="indefinite"/></circle>
     <path d="M26 42H54M100 42H128M77 14V-8M77 92V70" stroke="#5E60FF" stroke-width="2" stroke-linecap="round"/>
   </g>
-  <text x="280" y="74" class="meta">COMPUTER VISION MODEL</text>
-  <text x="280" y="126" class="title">GLAUCOMA ML</text>
-  <text x="280" y="161" class="desc">Identify glaucoma from eye scans using deep learning.</text>
-  <g transform="translate(280 190)"><rect width="96" height="26" rx="13" fill="#0f172a" stroke="#2E30FF" stroke-opacity=".45"/><text x="48" y="18" text-anchor="middle" class="tag">VISION</text></g>
-  <g transform="translate(390 190)"><rect width="98" height="26" rx="13" fill="#0f172a" stroke="#9641B7" stroke-opacity=".45"/><text x="49" y="18" text-anchor="middle" class="tag">HEALTH</text></g>
+  <text x="280" y="74" class="meta">VOICE &amp; RAG ASSISTANT</text>
+  <text x="280" y="126" class="title">VERNACULAR FD</text>
+  <text x="280" y="161" class="desc">15-Language voice assistant with citation-grounded RAG.</text>
+  <g transform="translate(280 190)"><rect width="96" height="26" rx="13" fill="#0f172a" stroke="#2E30FF" stroke-opacity=".45"/><text x="48" y="18" text-anchor="middle" class="tag">VOICE</text></g>
+  <g transform="translate(390 190)"><rect width="98" height="26" rx="13" fill="#0f172a" stroke="#9641B7" stroke-opacity=".45"/><text x="49" y="18" text-anchor="middle" class="tag">RAG</text></g>
 </svg>

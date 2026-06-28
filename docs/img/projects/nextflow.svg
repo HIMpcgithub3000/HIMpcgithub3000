@@ -16,25 +16,21 @@
 
   <!-- Title -->
   <text x="20" y="32" fill="#e2e8f0" font-size="20" font-family="monospace">
-    🔐 Steganography Tool
-  </text>
+    ⚙️ NextFlow Builder</text>
 
   <!-- Description -->
   <text x="20" y="55" fill="#94a3b8" font-size="14" font-family="monospace">
-    Securely embed invisible messages in images and audio files
-  </text>
+    Visual DAG workflow builder with topological execution</text>
 
   <!-- Language -->
   <circle cx="820" cy="30" r="6" fill="#FF516E"/>
   <text x="835" y="35" fill="#94a3b8" font-size="13" font-family="monospace">
-    JavaScript
-  </text>
+    TypeScript</text>
 
   <!-- Stars -->
   <text x="820" y="60" fill="#FF516E" font-size="14" font-family="monospace">
     ★
   </text>
   <text x="835" y="60" fill="#94a3b8" font-size="13" font-family="monospace">
-    Security
-  </text>
+    React Flow</text>
 </svg>

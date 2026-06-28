@@ -26,42 +26,29 @@
 ---
 
 <p align="center">
-  <b>Selected work across AI systems, machine learning models, security steganography, and financial analytics.</b>
+  <b>Selected work across AI workflow builders, multilingual speech assistants, healthcare RAG, and frontend architectures.</b>
 </p>
 
 <p align="center">
-  This page highlights projects that match the main direction of my GitHub profile: building practical applications around ML models, secure data encoding, full-stack inventory management, and financial advisors.
+  This page highlights projects that match the main direction of my GitHub profile: building practical applications around LLM workflow orchestration, secure data retrieval, voice interfaces, and developer-facing console dashboards.
 </p>
 
 <h2 align="center">🧪 Project Highlights</h2>
 
 <!-- Row 1 -->
 <p align="center">
-  <a href="https://github.com/HIMpcgithub3000/Glaucoma_Dectection_Machine_learning">
-    <img src="../docs/img/projects/glaucoma_ml.svg" width="45%" alt="Glaucoma ML project card" />
+  <a href="https://github.com/HIMpcgithub3000/Vernacular-FD-Advisor">
+    <img src="../docs/img/projects/fd_advisor.svg" width="45%" alt="Vernacular FD Advisor project card" />
   </a>
-  <a href="https://github.com/HIMpcgithub3000/steganography_him">
-    <img src="../docs/img/projects/steganography.svg" width="45%" alt="Steganography project card" />
+  <a href="https://github.com/HIMpcgithub3000/nextflow">
+    <img src="../docs/img/projects/nextflow.svg" width="45%" alt="NextFlow project card" />
   </a>
 </p>
 
 <!-- Row 2 -->
 <p align="center">
-  <a href="https://github.com/HIMpcgithub3000/Quantitative_analysis_of_stocks">
-    <img src="../docs/img/projects/stock_quant.svg" width="45%" alt="Stock Quantitative Analysis project card" />
-  </a>
-  <a href="https://github.com/HIMpcgithub3000/investment_chatbot">
-    <img src="../docs/img/projects/invest_chatbot.svg" width="45%" alt="Investment Chatbot project card" />
-  </a>
-</p>
-
-<!-- Row 3 -->
-<p align="center">
-  <a href="https://github.com/HIMpcgithub3000/Inventory_Management_System">
-    <img src="../docs/img/projects/inventory_ms.svg" width="45%" alt="Inventory Management project card" />
-  </a>
-  <a href="https://github.com/HIMpcgithub3000/Vernacular-FD-Advisor">
-    <img src="../docs/img/projects/fd_advisor.svg" width="45%" alt="Vernacular FD Advisor project card" />
+  <a href="https://github.com/HIMpcgithub3000/medimind">
+    <img src="../docs/img/projects/medimind.svg" width="45%" alt="MediMind project card" />
   </a>
 </p>
 
@@ -69,12 +56,12 @@
 
 | Project | Focus | Status | Why it matters |
 | --- | --- | --- | --- |
-| [Glaucoma Detection](https://github.com/HIMpcgithub3000/Glaucoma_Dectection_Machine_learning) | Deep learning, Computer Vision, Medical ML | Maintained | Leverages transfer learning models to diagnose glaucoma from ocular fundus scans, promoting early detection. |
-| [Steganography Tool](https://github.com/HIMpcgithub3000/steganography_him) | Data security, Cryptography, Web app | Active | Encodes text payloads invisibly inside audio and image files without visual or auditory degradation. |
-| [Quantitative Stock Analysis](https://github.com/HIMpcgithub3000/Quantitative_analysis_of_stocks) | Finance, Data analytics, Python modeling | Completed | Employs mathematical and quantitative finance models to identify stock trends and optimal investment strategies. |
-| [Investment Chatbot](https://github.com/HIMpcgithub3000/investment_chatbot) | Natural Language Processing, Conversational AI | Active | Interactive assistant that helps users understand finance questions and find stock patterns. |
-| [Inventory Management System](https://github.com/HIMpcgithub3000/Inventory_Management_System) | Database design, Full-stack dashboard | Completed | Provides full-scale stock tracking, sales reporting, and logistics organization for businesses. |
-| [Vernacular FD Advisor](https://github.com/HIMpcgithub3000/Vernacular-FD-Advisor) | Localization, Web utility | Maintained | Assists non-English-speaking users in evaluating fixed deposit schemes and banking returns. |
+| [Vernacular FD Advisor](https://github.com/HIMpcgithub3000/Vernacular-FD-Advisor) | Multilingual voice UX, Speech STT/TTS, RAG retrieval | Maintained | Citation-grounded assistant supporting 15 Indian languages with Web Speech API and Python/FAISS RAG backend. |
+| [NextFlow](https://github.com/HIMpcgithub3000/nextflow) | LLM workflow orchestration, visual DAG builder, Trigger.dev | Active | Visual DAG builder using React Flow and Node.js topological executor to run Gemini vision and media workers. |
+| [MediMind](https://github.com/HIMpcgithub3000/medimind) | Healthcare QA UI, retrieval evaluation console | Active | Document-QA frontend with SSE streaming chat, confidence badges, and parameter configuration console. |
+| [Blostem LLM Dashboard](https://github.com/HIMpcgithub3000) | OpenRouter integration, monitoring APIs | Completed | Python/FastAPI internal dashboard to monitor LLM token usage, rate limits, and audits for 50+ employees. |
+| [UptoSkills HRMS Flow](https://github.com/HIMpcgithub3000) | Reusable React components, state-driven flows | Completed | Developed 12 reusable React elements, increasing HRMS engagement metrics by 40%. |
+| [PitchX Features](https://github.com/HIMpcgithub3000) | Full Stack, BMU Incubator, API endpoints | Completed | Implemented 8 features across 3 modules in 14 weeks, lowering ticket turnaround times from 5 days to 2. |
 
 ## Current Direction
 

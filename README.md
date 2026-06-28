@@ -14,13 +14,13 @@
 
 <p align="center">
 <samp>
-「 Computer Science Undergraduate building AI-driven systems &amp; scalable solutions 」  
+「 Final-year B.Tech CS Student building Frontend Interfaces &amp; AI-driven Workflows 」  
 </samp>
 </p>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1200&color=2E30FF&center=true&vCenter=true&width=900&lines=Computer+Science+Undergraduate;Artificial+Intelligence+%26+Machine+Learning;Building+Intelligent+Systems;Data+Analysis+%26+Optimization"
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1200&color=2E30FF&center=true&vCenter=true&width=900&lines=Frontend+Intern+Candidate;React%2C+Next.js%2C+TypeScript;Building+LLM+%26+Media+Workflows;RAG%2C+Speech+AI+%26+Conversational+UX"
     alt="Typing SVG"
   />
 </p>
@@ -46,14 +46,14 @@
 
 <p align="center">
 
-<a href="https://github.com/HIMpcgithub3000/Glaucoma_Dectection_Machine_learning">
-  <img width="32%" src="./docs/img/system/neural_lab.svg" alt="Glaucoma ML Lab" />
+<a href="https://github.com/HIMpcgithub3000/Vernacular-FD-Advisor">
+  <img width="32%" src="./docs/img/system/neural_lab.svg" alt="Vernacular FD Advisor" />
 </a>
-<a href="https://github.com/HIMpcgithub3000/steganography_him">
-  <img width="32%" src="./docs/img/system/molecule_lab.svg" alt="Steganography Lab" />
+<a href="https://github.com/HIMpcgithub3000/nextflow">
+  <img width="32%" src="./docs/img/system/molecule_lab.svg" alt="NextFlow" />
 </a>
-<a href="https://github.com/HIMpcgithub3000/Quantitative_analysis_of_stocks">
-  <img width="32%" src="./docs/img/system/model_forge.svg" alt="Stock Analyst Lab" />
+<a href="https://github.com/HIMpcgithub3000/medimind">
+  <img width="32%" src="./docs/img/system/model_forge.svg" alt="MediMind" />
 </a>
 
 </p>
@@ -204,13 +204,18 @@ I’m open to collaborating on:
 </a>
 <br><br>
 
+<a href="https://portfolio-seven-gamma-5oer7ipr7x.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-Vercel-FF516E?style=for-the-badge&logo=vercel" alt="Portfolio Link">
+</a>
+<br><br>
+
 <a href="mailto:himanshusharmamig196@gmail.com">
-  <img src="https://img.shields.io/badge/email-himanshusharmamig196%40gmail.com-FF516E?style=for-the-badge&logo=gmail" alt="Email contact link">
+  <img src="https://img.shields.io/badge/email-himanshusharmamig196%40gmail.com-2E30FF?style=for-the-badge&logo=gmail" alt="Email contact link">
 </a>
 <br><br>
 
 <a href="https://www.linkedin.com/in/himanshu-sharma-ab7101313/">
-  <img src="https://img.shields.io/badge/linkedin-himanshu--sharma-2E30FF?style=for-the-badge&logo=linkedin" alt="LinkedIn profile link">
+  <img src="https://img.shields.io/badge/linkedin-himanshu--sharma-FF516E?style=for-the-badge&logo=linkedin" alt="LinkedIn profile link">
 </a>
 
 </td>

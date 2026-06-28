@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-  I am especially interested in machine learning models, data security/steganography, full-stack application development, financial data modeling, and developer tooling.
+  I am especially interested in LLM workflow builders, conversational/voice AI, healthcare RAG consoles, full-stack application development, and developer tooling.
 </p>
 
 <p align="center">
@@ -53,20 +53,20 @@ I like collaborations where the idea can survive contact with implementation. Th
 
 ## High-Value Collaboration Zones
 
-### Machine Learning & Vision
-Computer vision models, image processing pipelines, deep learning classifiers, model metrics, and data pre-processing automation. I care about making ML algorithms work in real-world scenarios.
+### Conversational AI & Speech
+Speech-to-text (STT), text-to-speech (TTS), Voice Activity Detection (VAD) concepts, Whisper/wav2vec integrations, child speech understanding, and multilingual conversational UI/UX.
 
-### Steganography & Data Security
-Secure data encoding, steganographic algorithms for files (image, audio), encryption layers, and web interfaces for secure data transfer.
+### LLM & Workflow Orchestration
+LLM workflow builders, visual DAG visualizers (React Flow), background topological executors (Trigger.dev workers), media automation pipelines (FFmpeg/Transloadit), and per-user workflow history.
+
+### Healthcare RAG & Evaluation
+Document-QA RAG platforms, streaming chat frontends, embedding models, vector database benchmarks (FAISS/ChromaDB), Ollama settings, and evaluation metrics console exports.
 
 ### Full-Stack Engineering
-Fast, clean API services, database optimization, responsive frontend pages, and end-to-end user dashboards.
-
-### Financial Stock Analytics
-Quantitative analytics, stock market datasets, mathematical modeling, and predictive visualizations in Python.
+Fast, clean API services, database optimization (PostgreSQL, Prisma, Drizzle), responsive frontend pages, and end-to-end user dashboards.
 
 ### Interactive Technical Labs
-Tools like Glaucoma ML Lab, Steganography Lab, and Stock Analyst Lab: visual environments that make complex ideas easier to explore directly.
+Tools like Vernacular FD Advisor, NextFlow Builder, and MediMind Console: visual environments that make complex ideas easier to explore directly.
 
 ### Technical Communication & Developer Experience
 README systems, clean diagrams, documentation structure, and visual interfaces. Good engineering is easier to trust when it is easier to inspect.
@@ -88,7 +88,7 @@ What exists now:
 <repo, demo, paper, sketch, notes, or current status>
 
 Where I think you might fit:
-<architecture, ML models, steganography, full-stack, documentation, etc.>
+<architecture, frontend/backend, LLM workflow, Speech API, RAG evaluation, etc.>
 
 First useful milestone:
 <something small enough to actually start>
@@ -110,7 +110,7 @@ If the first milestone is clear, the conversation can become technical quickly. 
 
 ## Contact Vector
 
-If the work connects to machine learning, full-stack applications, steganography, or financial modeling, send the idea through one of the channels listed in the main [README](../README.md#-contact).
+If the work connects to LLM orchestration, voice AI, RAG evaluation, or full-stack web applications, send the idea through one of the channels listed in the main [README](../README.md#-contact).
 
 Useful links:
 

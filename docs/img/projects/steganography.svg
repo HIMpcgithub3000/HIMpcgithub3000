@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 90" width="100%" height="90">
+  <defs>
+    <linearGradient id="borderGlow" x1="0" y1="0" x2="900" y2="0">
+      <stop offset="0%" stop-color="#2E30FF"/>
+      <stop offset="50%" stop-color="#9641B7"/>
+      <stop offset="100%" stop-color="#2E30FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card background -->
+  <rect x="1" y="1" width="898" height="88" rx="14"
+        fill="#020617" stroke="url(#borderGlow)" stroke-width="2" stroke-opacity="0.72"
+        stroke-dasharray="420 96" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-516" dur="18s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Title -->
+  <text x="20" y="32" fill="#e2e8f0" font-size="20" font-family="monospace">
+    🔐 Steganography Tool
+  </text>
+
+  <!-- Description -->
+  <text x="20" y="55" fill="#94a3b8" font-size="14" font-family="monospace">
+    Securely embed invisible messages in images and audio files
+  </text>
+
+  <!-- Language -->
+  <circle cx="820" cy="30" r="6" fill="#FF516E"/>
+  <text x="835" y="35" fill="#94a3b8" font-size="13" font-family="monospace">
+    JavaScript
+  </text>
+
+  <!-- Stars -->
+  <text x="820" y="60" fill="#FF516E" font-size="14" font-family="monospace">
+    ★
+  </text>
+  <text x="835" y="60" fill="#94a3b8" font-size="13" font-family="monospace">
+    Security
+  </text>
+</svg>

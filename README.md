@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=custom_gradient&customColorList=2E30FF,FF516E&height=250&section=header&text=Himanshu%20Sharma&fontSize=70&animation=twinkling" alt="Himanshu Sharma profile header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E30FF,100:FF516E&height=250&section=header&text=Himanshu%20Sharma&fontSize=70&animation=twinkling" alt="Himanshu Sharma profile header" />
 </p>
 
 <!-- Title -->

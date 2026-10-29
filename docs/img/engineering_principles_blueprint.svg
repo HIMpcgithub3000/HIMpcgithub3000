@@ -1,35 +1,35 @@
 <svg width="1500" height="820" viewBox="0 0 1500 820" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1500" y2="820" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#020617"/>
-      <stop offset="52%" stop-color="#07111f"/>
-      <stop offset="100%" stop-color="#0b1024"/>
+      <stop offset="0%" stop-color="#161210"/>
+      <stop offset="52%" stop-color="#231B16"/>
+      <stop offset="100%" stop-color="#1A1412"/>
     </linearGradient>
 
     <linearGradient id="trace" x1="0" y1="0" x2="1500" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#2E30FF" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#2E30FF" stop-opacity="0.9"/>
-      <stop offset="48%" stop-color="#9641B7" stop-opacity="0.9"/>
-      <stop offset="75%" stop-color="#FF516E" stop-opacity="0.86"/>
-      <stop offset="100%" stop-color="#FF516E" stop-opacity="0.35"/>
+      <stop offset="0%" stop-color="#DAC0A3" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#DAC0A3" stop-opacity="0.9"/>
+      <stop offset="48%" stop-color="#A27B5C" stop-opacity="0.9"/>
+      <stop offset="75%" stop-color="#C88A58" stop-opacity="0.86"/>
+      <stop offset="100%" stop-color="#C88A58" stop-opacity="0.35"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-180 0;180 0;-180 0" dur="13s" repeatCount="indefinite"/>
     </linearGradient>
 
     <linearGradient id="layerEdge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#2E30FF"/>
-      <stop offset="45%" stop-color="#9641B7"/>
-      <stop offset="100%" stop-color="#FF516E"/>
+      <stop offset="0%" stop-color="#DAC0A3"/>
+      <stop offset="45%" stop-color="#A27B5C"/>
+      <stop offset="100%" stop-color="#C88A58"/>
     </linearGradient>
 
     <radialGradient id="glowCore" cx="62%" cy="54%" r="55%">
-      <stop offset="0%" stop-color="#2E30FF" stop-opacity="0.18"/>
-      <stop offset="48%" stop-color="#9641B7" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#DAC0A3" stop-opacity="0.18"/>
+      <stop offset="48%" stop-color="#A27B5C" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#161210" stop-opacity="0"/>
     </radialGradient>
 
     <pattern id="blueprintGrid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#2E30FF" stroke-opacity="0.045"/>
-      <path d="M16 0V32M0 16H32" fill="none" stroke="#2E30FF" stroke-opacity="0.018"/>
+      <path d="M32 0H0V32" fill="none" stroke="#DAC0A3" stroke-opacity="0.045"/>
+      <path d="M16 0V32M0 16H32" fill="none" stroke="#DAC0A3" stroke-opacity="0.018"/>
     </pattern>
 
     <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
@@ -41,40 +41,40 @@
     </filter>
 
     <filter id="shadow" x="-16%" y="-18%" width="132%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020617" flood-opacity="0.6"/>
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#161210" flood-opacity="0.6"/>
     </filter>
 
     <style>
       .kicker {
         font: 800 14px 'Segoe UI', Arial, sans-serif;
         letter-spacing: 5px;
-        fill: #5E60FF;
+        fill: #C88A58;
       }
       .title {
         font: 900 44px 'Segoe UI', Arial, sans-serif;
         letter-spacing: 2px;
-        fill: #f8fafc;
+        fill: #FDFBF7;
       }
       .subtitle {
         font: 600 17px 'Segoe UI', Arial, sans-serif;
-        fill: #94a3b8;
+        fill: #D4A373;
       }
       .layerNum {
         font: 900 18px 'Cascadia Mono', Consolas, monospace;
-        fill: #5E60FF;
+        fill: #C88A58;
       }
       .layerTitle {
         font: 900 21px 'Segoe UI', Arial, sans-serif;
-        fill: #f8fafc;
+        fill: #FDFBF7;
       }
       .layerText {
         font: 650 15px 'Segoe UI', Arial, sans-serif;
-        fill: #cbd5e1;
+        fill: #EADBC8;
       }
       .railText {
         font: 900 18px 'Segoe UI', Arial, sans-serif;
         letter-spacing: 3px;
-        fill: #020617;
+        fill: #161210;
       }
       .terminal {
         font: 800 15px 'Cascadia Mono', Consolas, monospace;
@@ -83,7 +83,7 @@
       .moduleLabel {
         font: 800 12px 'Segoe UI', Arial, sans-serif;
         letter-spacing: 4px;
-        fill: #5E60FF;
+        fill: #C88A58;
       }
     </style>
   </defs>
@@ -106,11 +106,11 @@
     <path d="M900 235V650" stroke="url(#trace)" stroke-width="4" stroke-linecap="round" stroke-dasharray="26 18">
       <animate attributeName="stroke-dashoffset" from="0" to="-176" dur="10s" repeatCount="indefinite"/>
     </path>
-    <circle cx="900" cy="245" r="8" fill="#2E30FF"/>
-    <circle cx="900" cy="345" r="8" fill="#9641B7"/>
-    <circle cx="900" cy="445" r="8" fill="#FF516E"/>
-    <circle cx="900" cy="545" r="8" fill="#2E30FF"/>
-    <circle cx="900" cy="645" r="8" fill="#9641B7"/>
+    <circle cx="900" cy="245" r="8" fill="#DAC0A3"/>
+    <circle cx="900" cy="345" r="8" fill="#A27B5C"/>
+    <circle cx="900" cy="445" r="8" fill="#C88A58"/>
+    <circle cx="900" cy="545" r="8" fill="#DAC0A3"/>
+    <circle cx="900" cy="645" r="8" fill="#A27B5C"/>
   </g>
 
   <g filter="url(#shadow)">
@@ -161,20 +161,20 @@
 
   <g transform="translate(1015 235)" filter="url(#shadow)">
     <path d="M68 0H280L348 68V356L280 424H68L0 356V68Z" fill="rgba(2, 6, 23, 0.86)" stroke="url(#layerEdge)" stroke-width="3"/>
-    <path d="M88 52H260L296 88V336L260 372H88L52 336V88Z" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="12 14">
+    <path d="M88 52H260L296 88V336L260 372H88L52 336V88Z" fill="none" stroke="#5A4D46" stroke-width="2" stroke-dasharray="12 14">
       <animate attributeName="stroke-dashoffset" from="0" to="-104" dur="14s" repeatCount="indefinite"/>
     </path>
     <text x="174" y="88" text-anchor="middle" class="moduleLabel">VERIFICATION MODULE</text>
-    <circle cx="174" cy="176" r="72" fill="none" stroke="#2E30FF" stroke-width="3" stroke-opacity="0.75" stroke-dasharray="28 16">
+    <circle cx="174" cy="176" r="72" fill="none" stroke="#DAC0A3" stroke-width="3" stroke-opacity="0.75" stroke-dasharray="28 16">
       <animateTransform attributeName="transform" type="rotate" from="0 174 176" to="360 174 176" dur="20s" repeatCount="indefinite"/>
     </circle>
     <circle cx="174" cy="176" r="34" fill="url(#layerEdge)" opacity="0.92">
       <animate attributeName="r" values="31;37;31" dur="4s" repeatCount="indefinite"/>
     </circle>
     <text x="174" y="172" text-anchor="middle" class="railText">VERIFY</text>
-    <text x="174" y="286" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="900" fill="#f8fafc">BUILD SYSTEMS</text>
-    <text x="174" y="316" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="650" fill="#94a3b8">that can be repeated,</text>
-    <text x="174" y="339" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="650" fill="#94a3b8">inspected, and improved.</text>
+    <text x="174" y="286" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="900" fill="#FDFBF7">BUILD SYSTEMS</text>
+    <text x="174" y="316" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="650" fill="#D4A373">that can be repeated,</text>
+    <text x="174" y="339" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="650" fill="#D4A373">inspected, and improved.</text>
   </g>
 
   <g stroke="url(#trace)" stroke-width="2" stroke-dasharray="14 12" opacity="0.7" filter="url(#glow)">

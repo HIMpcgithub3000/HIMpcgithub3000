@@ -1,40 +1,40 @@
 <svg width="1400" height="640" viewBox="0 0 1400 640" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="640" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#020617"/>
-      <stop offset="48%" stop-color="#07111f"/>
-      <stop offset="100%" stop-color="#0b1024"/>
+      <stop offset="0%" stop-color="#161210"/>
+      <stop offset="48%" stop-color="#231B16"/>
+      <stop offset="100%" stop-color="#1A1412"/>
     </linearGradient>
 
     <linearGradient id="goodEdge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#2E30FF"/>
-      <stop offset="50%" stop-color="#FF516E"/>
-      <stop offset="100%" stop-color="#ffcbd5"/>
+      <stop offset="0%" stop-color="#DAC0A3"/>
+      <stop offset="50%" stop-color="#C88A58"/>
+      <stop offset="100%" stop-color="#EADBC8"/>
     </linearGradient>
 
     <linearGradient id="poorEdge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FF516E"/>
-      <stop offset="52%" stop-color="#FF516E"/>
-      <stop offset="100%" stop-color="#9641B7"/>
+      <stop offset="0%" stop-color="#C88A58"/>
+      <stop offset="52%" stop-color="#C88A58"/>
+      <stop offset="100%" stop-color="#A27B5C"/>
     </linearGradient>
 
     <linearGradient id="outerFlow" x1="0" y1="0" x2="1400" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#2E30FF" stop-opacity="0"/>
-      <stop offset="24%" stop-color="#2E30FF" stop-opacity="0.9"/>
-      <stop offset="50%" stop-color="#9641B7" stop-opacity="0.85"/>
-      <stop offset="76%" stop-color="#FF516E" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#2E30FF" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#DAC0A3" stop-opacity="0"/>
+      <stop offset="24%" stop-color="#DAC0A3" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#A27B5C" stop-opacity="0.85"/>
+      <stop offset="76%" stop-color="#C88A58" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#DAC0A3" stop-opacity="0"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-180 0;180 0;-180 0" dur="12s" repeatCount="indefinite"/>
     </linearGradient>
 
     <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#2E30FF" stop-opacity="0.24"/>
-      <stop offset="48%" stop-color="#9641B7" stop-opacity="0.09"/>
-      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#DAC0A3" stop-opacity="0.24"/>
+      <stop offset="48%" stop-color="#A27B5C" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#161210" stop-opacity="0"/>
     </radialGradient>
 
     <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" fill="none" stroke="#2E30FF" stroke-opacity="0.045" stroke-width="1">
+      <path d="M42 0H0V42" fill="none" stroke="#DAC0A3" stroke-opacity="0.045" stroke-width="1">
         <animateTransform attributeName="transform" type="translate" values="0 0;42 42;0 0" dur="28s" repeatCount="indefinite"/>
       </path>
     </pattern>
@@ -48,28 +48,28 @@
     </filter>
 
     <filter id="panelShadow" x="-20%" y="-20%" width="140%" height="145%">
-      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#020617" flood-opacity="0.62"/>
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#161210" flood-opacity="0.62"/>
     </filter>
 
     <style>
       .kicker {
         font: 800 14px 'Segoe UI', Arial, sans-serif;
         letter-spacing: 5px;
-        fill: #5E60FF;
+        fill: #C88A58;
       }
       .title {
         font: 900 44px 'Segoe UI', Arial, sans-serif;
         letter-spacing: 2px;
-        fill: #f8fafc;
+        fill: #FDFBF7;
       }
       .subtitle {
         font: 600 17px 'Segoe UI', Arial, sans-serif;
-        fill: #94a3b8;
+        fill: #D4A373;
       }
       .panelTitle {
         font: 900 31px 'Segoe UI', Arial, sans-serif;
         letter-spacing: 1px;
-        fill: #f8fafc;
+        fill: #FDFBF7;
       }
       .panelMeta {
         font: 800 12px 'Segoe UI', Arial, sans-serif;
@@ -77,11 +77,11 @@
       }
       .item {
         font: 650 17px 'Segoe UI', Arial, sans-serif;
-        fill: #dbeafe;
+        fill: #FDFBF7;
       }
       .itemDim {
         font: 650 17px 'Segoe UI', Arial, sans-serif;
-        fill: #ffcbd5;
+        fill: #EADBC8;
       }
       .terminal {
         font: 800 15px 'Cascadia Mono', Consolas, monospace;
@@ -89,7 +89,7 @@
       }
       .small {
         font: 650 14px 'Segoe UI', Arial, sans-serif;
-        fill: #94a3b8;
+        fill: #D4A373;
       }
     </style>
   </defs>
@@ -121,24 +121,24 @@
     <text x="34" y="91" class="panelTitle">GOOD FIT</text>
 
     <g filter="url(#glow)">
-      <circle cx="508" cy="62" r="26" fill="none" stroke="#FF516E" stroke-width="3"/>
+      <circle cx="508" cy="62" r="26" fill="none" stroke="#C88A58" stroke-width="3"/>
       <path d="M496 62L505 71L522 51" fill="none" stroke="#FF7D95" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
 
     <g transform="translate(34 130)">
-      <circle cx="8" cy="0" r="5" fill="#2E30FF"/>
+      <circle cx="8" cy="0" r="5" fill="#DAC0A3"/>
       <text x="28" y="6" class="item">A repo, demo, diagram, or technical note exists.</text>
 
-      <circle cx="8" cy="44" r="5" fill="#FF516E"/>
+      <circle cx="8" cy="44" r="5" fill="#C88A58"/>
       <text x="28" y="50" class="item">The problem has constraints and tradeoffs.</text>
 
-      <circle cx="8" cy="88" r="5" fill="#ffcbd5"/>
+      <circle cx="8" cy="88" r="5" fill="#EADBC8"/>
       <text x="28" y="94" class="item">The first step can be scoped.</text>
 
-      <circle cx="8" cy="132" r="5" fill="#2E30FF"/>
+      <circle cx="8" cy="132" r="5" fill="#DAC0A3"/>
       <text x="28" y="138" class="item">Security, privacy, and data boundaries are explicit.</text>
 
-      <circle cx="8" cy="176" r="5" fill="#FF516E"/>
+      <circle cx="8" cy="176" r="5" fill="#C88A58"/>
       <text x="28" y="182" class="item">The project values maintainability.</text>
     </g>
   </g>
@@ -151,24 +151,24 @@
     <text x="34" y="91" class="panelTitle">POOR FIT</text>
 
     <g filter="url(#glow)">
-      <circle cx="508" cy="62" r="26" fill="none" stroke="#FF516E" stroke-width="3"/>
-      <path d="M496 50L520 74M520 50L496 74" fill="none" stroke="#ffcbd5" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="508" cy="62" r="26" fill="none" stroke="#C88A58" stroke-width="3"/>
+      <path d="M496 50L520 74M520 50L496 74" fill="none" stroke="#EADBC8" stroke-width="4" stroke-linecap="round"/>
     </g>
 
     <g transform="translate(34 130)">
-      <circle cx="8" cy="0" r="5" fill="#FF516E"/>
+      <circle cx="8" cy="0" r="5" fill="#C88A58"/>
       <text x="28" y="6" class="itemDim">The idea is only "we should use AI for X."</text>
 
-      <circle cx="8" cy="44" r="5" fill="#FF516E"/>
+      <circle cx="8" cy="44" r="5" fill="#C88A58"/>
       <text x="28" y="50" class="itemDim">The goal is mostly hype, views, or a vague pitch.</text>
 
-      <circle cx="8" cy="88" r="5" fill="#9641B7"/>
+      <circle cx="8" cy="88" r="5" fill="#A27B5C"/>
       <text x="28" y="94" class="itemDim">The ask is to build a full product from nothing.</text>
 
-      <circle cx="8" cy="132" r="5" fill="#FF516E"/>
+      <circle cx="8" cy="132" r="5" fill="#C88A58"/>
       <text x="28" y="138" class="itemDim">Private data or credentials are treated casually.</text>
 
-      <circle cx="8" cy="176" r="5" fill="#FF516E"/>
+      <circle cx="8" cy="176" r="5" fill="#C88A58"/>
       <text x="28" y="182" class="itemDim">The project only cares about a short demo.</text>
     </g>
   </g>

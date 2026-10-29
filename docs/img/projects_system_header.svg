@@ -1,26 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="320">
   <defs>
-
     <!-- Background -->
     <radialGradient id="bgGrad" cx="50%" cy="50%" r="80%">
-      <stop offset="0%" stop-color="#0b1220"/>
-      <stop offset="70%" stop-color="#020617"/>
-      <stop offset="100%" stop-color="#000000"/>
+      <stop offset="0%" stop-color="#261E1A"/>
+      <stop offset="70%" stop-color="#191411"/>
+      <stop offset="100%" stop-color="#140F0D"/>
     </radialGradient>
 
     <!-- Core gradient -->
     <radialGradient id="coreGrad" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="25%" stop-color="#5E60FF"/>
-      <stop offset="65%" stop-color="#9641B7"/>
-      <stop offset="100%" stop-color="#020617"/>
+      <stop offset="0%" stop-color="#FDFBF7"/>
+      <stop offset="25%" stop-color="#DAC0A3"/>
+      <stop offset="65%" stop-color="#C88A58"/>
+      <stop offset="100%" stop-color="#191411"/>
     </radialGradient>
 
     <!-- Title gradient -->
     <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2E30FF"/>
-      <stop offset="50%" stop-color="#9641B7"/>
-      <stop offset="100%" stop-color="#FF516E"/>
+      <stop offset="0%" stop-color="#DAC0A3"/>
+      <stop offset="50%" stop-color="#C88A58"/>
+      <stop offset="100%" stop-color="#D4A373"/>
     </linearGradient>
 
     <!-- Glow -->
@@ -32,62 +31,38 @@
       </feMerge>
     </filter>
 
-    <!-- Scanline effect -->
-    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="2" fill="rgba(255,255,255,0.02)"/>
-    </pattern>
-
     <style>
       .title {
-        font: 700 36px 'Segoe UI', Arial, sans-serif;
+        font: 800 38px 'Segoe UI', Arial, sans-serif;
         fill: url(#titleGrad);
         letter-spacing: 3px;
       }
-
       .subtitle {
-        font: 500 14px 'Segoe UI', Arial, sans-serif;
-        fill: #94a3b8;
+        font: 600 13px 'Segoe UI', Arial, sans-serif;
+        fill: #D4A373;
         letter-spacing: 2px;
       }
-
       .system {
-        font: 600 12px 'Segoe UI', Arial, sans-serif;
-        fill: #2E30FF;
-        letter-spacing: 2px;
+        font: 700 12px monospace;
+        fill: #DAC0A3;
+        letter-spacing: 3px;
       }
-
       .line {
-        stroke: #1e293b;
+        stroke: #4A3E3D;
         stroke-width: 2;
       }
     </style>
-
   </defs>
 
-  <!-- Background -->
   <rect width="1200" height="320" fill="url(#bgGrad)"/>
-  <rect width="1200" height="320" fill="url(#scanlines)" opacity="0.4"/>
 
-  <!-- Central core -->
-  <g transform="translate(600 150)">
-    <circle r="70" fill="url(#coreGrad)" filter="url(#glow)">
-      <animate attributeName="r" values="65;80;65" dur="5s" repeatCount="indefinite"/>
+  <!-- Core energy center -->
+  <g transform="translate(600,150)">
+    <circle r="75" fill="url(#coreGrad)" filter="url(#glow)">
+      <animate attributeName="r" values="70;85;70" dur="4s" repeatCount="indefinite"/>
     </circle>
-    <circle r="30" fill="#ffffff" opacity="0.95"/>
-  </g>
-
-  <!-- Orbit rings -->
-  <g transform="translate(600 150)" opacity="0.6">
-    <circle r="110" fill="none" stroke="#2E30FF" stroke-opacity="0.2" stroke-width="2"
-            stroke-dasharray="8 16">
-      <animateTransform attributeName="transform" type="rotate"
-        from="0" to="360" dur="20s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle r="140" fill="none" stroke="#9641B7" stroke-opacity="0.2" stroke-width="2"
-            stroke-dasharray="6 18">
-      <animateTransform attributeName="transform" type="rotate"
-        from="360" to="0" dur="28s" repeatCount="indefinite"/>
+    <circle r="25" fill="#FDFBF7">
+      <animate attributeName="r" values="22;28;22" dur="2s" repeatCount="indefinite"/>
     </circle>
   </g>
 
@@ -97,29 +72,29 @@
 
   <!-- Small system nodes -->
   <g filter="url(#glow)">
-    <circle cx="460" cy="150" r="6" fill="#2E30FF"/>
-    <circle cx="740" cy="150" r="6" fill="#9641B7"/>
+    <circle cx="460" cy="150" r="6" fill="#DAC0A3"/>
+    <circle cx="740" cy="150" r="6" fill="#C88A58"/>
   </g>
 
-  <!-- Animated signal -->
-  <circle r="4" fill="#ffffff">
+  <!-- Animated signals -->
+  <circle r="4" fill="#FDFBF7">
     <animateMotion dur="3s" repeatCount="indefinite"
       path="M460,150 C520,140 560,140 600,150"/>
   </circle>
 
-  <circle r="4" fill="#5E60FF">
+  <circle r="4" fill="#DAC0A3">
     <animateMotion dur="3.5s" repeatCount="indefinite"
       path="M600,150 C640,160 680,160 740,150"/>
   </circle>
 
   <!-- Title -->
   <text x="600" y="240" text-anchor="middle" class="title">
-    PROJECT SYSTEMS
+    PROJECT SYSTEMS &amp; COMPENDIUM
   </text>
 
   <!-- Subtitle -->
   <text x="600" y="265" text-anchor="middle" class="subtitle">
-    ACTIVE ML SYSTEMS • INFRASTRUCTURE • EXPERIMENTAL ARCHITECTURES
+    HIGH-THROUGHPUT ROUTERS • VOICE TELEPHONY • AUTONOMOUS AGENTS • SCIENTIFIC ML
   </text>
 
   <!-- System label -->

@@ -307,7 +307,7 @@
 
 <div style="width:220px;">
   <a href="docs/PROJECTS.md">
-    <img src="docs/img/tech_projects_panel.svg" width="220" alt="Projects navigation panel">
+    <img src="./docs/img/tech_projects_panel.svg" width="220" alt="Projects navigation panel">
   </a>
 </div>
 
@@ -321,7 +321,7 @@
 
 <div style="width:220px;">
   <a href="docs/AI_DOMAIN.md">
-    <img src="docs/img/ai_domains.svg" width="220" alt="AI domains navigation panel">
+    <img src="./docs/img/ai_domains.svg" width="220" alt="AI domains navigation panel">
   </a>
 </div>
 
@@ -380,7 +380,7 @@ I’m open to collaborating on:
 <!-- MIDDLE: PANEL -->
 <td width="34%" align="center" valign="middle">
   <a href="docs/COLLAB.md">
-    <img src="docs/img/collaboration_panel.svg" width="200px" alt="Collaboration navigation panel" />
+    <img src="./docs/img/collaboration_panel.svg" width="200px" alt="Collaboration navigation panel" />
   </a>
 </td>
 

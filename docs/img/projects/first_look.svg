@@ -1,47 +1,47 @@
 <svg width="1400" height="560" viewBox="0 0 1400 560" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="560" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#020617"/>
-      <stop offset="50%" stop-color="#07111f"/>
-      <stop offset="100%" stop-color="#0b1024"/>
+      <stop offset="0%" stop-color="#161210"/>
+      <stop offset="50%" stop-color="#231B16"/>
+      <stop offset="100%" stop-color="#1A1412"/>
     </linearGradient>
     <linearGradient id="flow" x1="0" y1="0" x2="1400" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#2E30FF" stop-opacity="0"/>
-      <stop offset="22%" stop-color="#2E30FF" stop-opacity="0.9"/>
-      <stop offset="50%" stop-color="#9641B7" stop-opacity="0.9"/>
-      <stop offset="80%" stop-color="#FF516E" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#2E30FF" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#DAC0A3" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#DAC0A3" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#A27B5C" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#C88A58" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#DAC0A3" stop-opacity="0"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-160 0;160 0;-160 0" dur="12s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="routeEdge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#2E30FF"/>
-      <stop offset="48%" stop-color="#9641B7"/>
-      <stop offset="100%" stop-color="#FF516E"/>
+      <stop offset="0%" stop-color="#DAC0A3"/>
+      <stop offset="48%" stop-color="#A27B5C"/>
+      <stop offset="100%" stop-color="#C88A58"/>
     </linearGradient>
     <radialGradient id="glowCore" cx="50%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#2E30FF" stop-opacity="0.2"/>
-      <stop offset="55%" stop-color="#9641B7" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#DAC0A3" stop-opacity="0.2"/>
+      <stop offset="55%" stop-color="#A27B5C" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#161210" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#2E30FF" stroke-opacity="0.045">
+      <path d="M40 0H0V40" fill="none" stroke="#DAC0A3" stroke-opacity="0.045">
         <animateTransform attributeName="transform" type="translate" values="0 0;40 40;0 0" dur="28s" repeatCount="indefinite"/>
       </path>
     </pattern>
     <filter id="shadow" x="-16%" y="-18%" width="132%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020617" flood-opacity="0.58"/>
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#161210" flood-opacity="0.58"/>
     </filter>
     <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
-      .kicker { font: 800 14px 'Segoe UI', Arial, sans-serif; letter-spacing: 5px; fill: #5E60FF; }
-      .title { font: 900 42px 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; fill: #f8fafc; }
-      .subtitle { font: 600 17px 'Segoe UI', Arial, sans-serif; fill: #94a3b8; }
-      .routeTitle { font: 900 24px 'Segoe UI', Arial, sans-serif; fill: #f8fafc; }
-      .routeText { font: 650 15px 'Segoe UI', Arial, sans-serif; fill: #cbd5e1; }
-      .meta { font: 800 11px 'Segoe UI', Arial, sans-serif; letter-spacing: 3px; fill: #5E60FF; }
+      .kicker { font: 800 14px 'Segoe UI', Arial, sans-serif; letter-spacing: 5px; fill: #C88A58; }
+      .title { font: 900 42px 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; fill: #FDFBF7; }
+      .subtitle { font: 600 17px 'Segoe UI', Arial, sans-serif; fill: #D4A373; }
+      .routeTitle { font: 900 24px 'Segoe UI', Arial, sans-serif; fill: #FDFBF7; }
+      .routeText { font: 650 15px 'Segoe UI', Arial, sans-serif; fill: #EADBC8; }
+      .meta { font: 800 11px 'Segoe UI', Arial, sans-serif; letter-spacing: 3px; fill: #C88A58; }
       .terminal { font: 800 15px 'Cascadia Mono', Consolas, monospace; fill: #bbf7d0; }
     </style>
   </defs>

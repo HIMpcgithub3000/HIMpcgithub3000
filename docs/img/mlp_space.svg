@@ -1,41 +1,41 @@
 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#0b1220"/>
-      <stop offset="55%" stop-color="#020617"/>
+      <stop offset="0%" stop-color="#251E1A"/>
+      <stop offset="55%" stop-color="#161210"/>
       <stop offset="100%" stop-color="#000000"/>
     </radialGradient>
 
     <radialGradient id="coreGrad" cx="50%" cy="45%" r="55%">
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="15%" stop-color="#dbe1ff"/>
-      <stop offset="38%" stop-color="#5E60FF"/>
-      <stop offset="68%" stop-color="#9641B7"/>
-      <stop offset="100%" stop-color="#020617"/>
+      <stop offset="38%" stop-color="#C88A58"/>
+      <stop offset="68%" stop-color="#A27B5C"/>
+      <stop offset="100%" stop-color="#161210"/>
     </radialGradient>
 
     <linearGradient id="linkGradA" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2E30FF" stop-opacity="0.08"/>
-      <stop offset="50%" stop-color="#2E30FF" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#9641B7" stop-opacity="0.08"/>
+      <stop offset="0%" stop-color="#DAC0A3" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#DAC0A3" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#A27B5C" stop-opacity="0.08"/>
     </linearGradient>
 
     <linearGradient id="linkGradB" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#9641B7" stop-opacity="0.05"/>
-      <stop offset="50%" stop-color="#cbd5e1" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#2E30FF" stop-opacity="0.05"/>
+      <stop offset="0%" stop-color="#A27B5C" stop-opacity="0.05"/>
+      <stop offset="50%" stop-color="#EADBC8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#DAC0A3" stop-opacity="0.05"/>
     </linearGradient>
 
     <linearGradient id="nodeOuter" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#dbe1ff"/>
-      <stop offset="55%" stop-color="#5E60FF"/>
-      <stop offset="100%" stop-color="#2E30FF"/>
+      <stop offset="55%" stop-color="#C88A58"/>
+      <stop offset="100%" stop-color="#DAC0A3"/>
     </linearGradient>
 
     <linearGradient id="nodeHidden" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#e2d0eb"/>
-      <stop offset="55%" stop-color="#cbd5e1"/>
-      <stop offset="100%" stop-color="#9641B7"/>
+      <stop offset="55%" stop-color="#EADBC8"/>
+      <stop offset="100%" stop-color="#A27B5C"/>
     </linearGradient>
 
     <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
@@ -86,11 +86,11 @@
     </g>
 
     <g id="signalDotB">
-      <circle r="4" fill="#5E60FF" filter="url(#softGlow)"/>
+      <circle r="4" fill="#C88A58" filter="url(#softGlow)"/>
     </g>
 
     <g id="signalDotC">
-      <circle r="4" fill="#cbd5e1" filter="url(#softGlow)"/>
+      <circle r="4" fill="#EADBC8" filter="url(#softGlow)"/>
     </g>
   </defs>
 
@@ -98,13 +98,13 @@
 
   <!-- ambient cognition field -->
   <g filter="url(#bigGlow)" opacity="0.55">
-    <circle cx="512" cy="512" r="320" fill="#2E30FF" opacity="0.05">
+    <circle cx="512" cy="512" r="320" fill="#DAC0A3" opacity="0.05">
       <animate attributeName="r" values="300;340;300" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="512" cy="512" r="250" fill="#9641B7" opacity="0.06">
+    <circle cx="512" cy="512" r="250" fill="#A27B5C" opacity="0.06">
       <animate attributeName="r" values="230;270;230" dur="6s" repeatCount="indefinite"/>
     </circle>
-    <ellipse cx="512" cy="512" rx="390" ry="180" fill="#5E60FF" opacity="0.03">
+    <ellipse cx="512" cy="512" rx="390" ry="180" fill="#C88A58" opacity="0.03">
       <animate attributeName="rx" values="360;410;360" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="ry" values="165;190;165" dur="10s" repeatCount="indefinite"/>
     </ellipse>
@@ -112,14 +112,14 @@
 
   <!-- rotating cognition rings -->
   <g transform="translate(512 512)" opacity="0.7">
-    <circle r="360" fill="none" stroke="#1e293b" stroke-width="2"/>
-    <circle r="320" fill="none" stroke="#2E30FF" stroke-opacity="0.18" stroke-width="3" stroke-dasharray="10 18">
+    <circle r="360" fill="none" stroke="#4A3E3D" stroke-width="2"/>
+    <circle r="320" fill="none" stroke="#DAC0A3" stroke-opacity="0.18" stroke-width="3" stroke-dasharray="10 18">
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
     </circle>
-    <circle r="275" fill="none" stroke="#9641B7" stroke-opacity="0.2" stroke-width="2" stroke-dasharray="8 24">
+    <circle r="275" fill="none" stroke="#A27B5C" stroke-opacity="0.2" stroke-width="2" stroke-dasharray="8 24">
       <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="21s" repeatCount="indefinite"/>
     </circle>
-    <ellipse rx="220" ry="380" fill="none" stroke="#5E60FF" stroke-opacity="0.08" stroke-width="2" stroke-dasharray="4 20">
+    <ellipse rx="220" ry="380" fill="none" stroke="#C88A58" stroke-opacity="0.08" stroke-width="2" stroke-dasharray="4 20">
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
     </ellipse>
   </g>
@@ -161,41 +161,41 @@
 
   <!-- layer halos -->
   <g opacity="0.18" filter="url(#bigGlow)">
-    <ellipse cx="210" cy="520" rx="90" ry="360" fill="#2E30FF"/>
-    <ellipse cx="390" cy="515" rx="110" ry="400" fill="#5E60FF"/>
-    <ellipse cx="540" cy="470" rx="100" ry="300" fill="#9641B7"/>
-    <circle cx="730" cy="512" r="120" fill="#cbd5e1"/>
+    <ellipse cx="210" cy="520" rx="90" ry="360" fill="#DAC0A3"/>
+    <ellipse cx="390" cy="515" rx="110" ry="400" fill="#C88A58"/>
+    <ellipse cx="540" cy="470" rx="100" ry="300" fill="#A27B5C"/>
+    <circle cx="730" cy="512" r="120" fill="#EADBC8"/>
   </g>
 
   <!-- input layer -->
   <g>
     <g transform="translate(210 260)">
       <use href="#cyanNode"/>
-      <circle r="38" fill="none" stroke="#2E30FF" stroke-opacity="0.18" stroke-width="3">
+      <circle r="38" fill="none" stroke="#DAC0A3" stroke-opacity="0.18" stroke-width="3">
         <animate attributeName="r" values="32;42;32" dur="4.8s" repeatCount="indefinite"/>
       </circle>
     </g>
     <g transform="translate(210 390)">
       <use href="#cyanNode"/>
-      <circle r="36" fill="none" stroke="#2E30FF" stroke-opacity="0.16" stroke-width="3">
+      <circle r="36" fill="none" stroke="#DAC0A3" stroke-opacity="0.16" stroke-width="3">
         <animate attributeName="r" values="30;40;30" dur="5.3s" repeatCount="indefinite"/>
       </circle>
     </g>
     <g transform="translate(210 520)">
       <use href="#cyanNode"/>
-      <circle r="40" fill="none" stroke="#2E30FF" stroke-opacity="0.22" stroke-width="3">
+      <circle r="40" fill="none" stroke="#DAC0A3" stroke-opacity="0.22" stroke-width="3">
         <animate attributeName="r" values="34;46;34" dur="4.1s" repeatCount="indefinite"/>
       </circle>
     </g>
     <g transform="translate(210 650)">
       <use href="#cyanNode"/>
-      <circle r="36" fill="none" stroke="#2E30FF" stroke-opacity="0.16" stroke-width="3">
+      <circle r="36" fill="none" stroke="#DAC0A3" stroke-opacity="0.16" stroke-width="3">
         <animate attributeName="r" values="30;40;30" dur="5.1s" repeatCount="indefinite"/>
       </circle>
     </g>
     <g transform="translate(210 780)">
       <use href="#cyanNode"/>
-      <circle r="38" fill="none" stroke="#2E30FF" stroke-opacity="0.18" stroke-width="3">
+      <circle r="38" fill="none" stroke="#DAC0A3" stroke-opacity="0.18" stroke-width="3">
         <animate attributeName="r" values="32;43;32" dur="4.6s" repeatCount="indefinite"/>
       </circle>
     </g>
@@ -205,31 +205,31 @@
   <g>
     <g transform="translate(390 210)">
       <use href="#violetNode"/>
-      <circle r="34" fill="none" stroke="#9641B7" stroke-opacity="0.18" stroke-width="3">
+      <circle r="34" fill="none" stroke="#A27B5C" stroke-opacity="0.18" stroke-width="3">
         <animate attributeName="r" values="28;38;28" dur="4.4s" repeatCount="indefinite"/>
       </circle>
     </g>
     <g transform="translate(390 360)">
       <use href="#violetNode"/>
-      <circle r="36" fill="none" stroke="#9641B7" stroke-opacity="0.2" stroke-width="3">
+      <circle r="36" fill="none" stroke="#A27B5C" stroke-opacity="0.2" stroke-width="3">
         <animate attributeName="r" values="30;40;30" dur="3.9s" repeatCount="indefinite"/>
       </circle>
     </g>
     <g transform="translate(390 515)">
       <use href="#violetNode"/>
-      <circle r="40" fill="none" stroke="#cbd5e1" stroke-opacity="0.28" stroke-width="4">
+      <circle r="40" fill="none" stroke="#EADBC8" stroke-opacity="0.28" stroke-width="4">
         <animate attributeName="r" values="34;46;34" dur="3.2s" repeatCount="indefinite"/>
       </circle>
     </g>
     <g transform="translate(390 675)">
       <use href="#violetNode"/>
-      <circle r="36" fill="none" stroke="#9641B7" stroke-opacity="0.2" stroke-width="3">
+      <circle r="36" fill="none" stroke="#A27B5C" stroke-opacity="0.2" stroke-width="3">
         <animate attributeName="r" values="30;41;30" dur="4.8s" repeatCount="indefinite"/>
       </circle>
     </g>
     <g transform="translate(390 820)">
       <use href="#violetNode"/>
-      <circle r="34" fill="none" stroke="#9641B7" stroke-opacity="0.16" stroke-width="3">
+      <circle r="34" fill="none" stroke="#A27B5C" stroke-opacity="0.16" stroke-width="3">
         <animate attributeName="r" values="28;38;28" dur="5.4s" repeatCount="indefinite"/>
       </circle>
     </g>
@@ -239,7 +239,7 @@
   <g>
     <g transform="translate(540 280)">
       <use href="#violetNode"/>
-      <circle r="34" fill="none" stroke="#5E60FF" stroke-opacity="0.15" stroke-width="3">
+      <circle r="34" fill="none" stroke="#C88A58" stroke-opacity="0.15" stroke-width="3">
         <animate attributeName="r" values="29;39;29" dur="4.7s" repeatCount="indefinite"/>
       </circle>
     </g>
@@ -251,7 +251,7 @@
     </g>
     <g transform="translate(540 665)">
       <use href="#violetNode"/>
-      <circle r="34" fill="none" stroke="#5E60FF" stroke-opacity="0.15" stroke-width="3">
+      <circle r="34" fill="none" stroke="#C88A58" stroke-opacity="0.15" stroke-width="3">
         <animate attributeName="r" values="28;39;28" dur="5s" repeatCount="indefinite"/>
       </circle>
     </g>
@@ -264,10 +264,10 @@
     </circle>
     <circle r="58" fill="#ffffff" opacity="0.94"/>
     <ellipse cx="-18" cy="-16" rx="24" ry="16" fill="#ffffff" opacity="0.45"/>
-    <circle r="132" fill="none" stroke="#cbd5e1" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="12 14">
+    <circle r="132" fill="none" stroke="#EADBC8" stroke-opacity="0.25" stroke-width="4" stroke-dasharray="12 14">
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
     </circle>
-    <circle r="158" fill="none" stroke="#2E30FF" stroke-opacity="0.14" stroke-width="3" stroke-dasharray="4 18">
+    <circle r="158" fill="none" stroke="#DAC0A3" stroke-opacity="0.14" stroke-width="3" stroke-dasharray="4 18">
       <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="18s" repeatCount="indefinite"/>
     </circle>
   </g>
@@ -331,12 +331,12 @@
     <g>
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
       <path d="M0 -410 L14 -385 L0 -360 L-14 -385 Z" fill="#dbe1ff"/>
-      <path d="M355 -145 L378 -130 L360 -108 L338 -122 Z" fill="#5E60FF"/>
-      <path d="M382 112 L406 126 L390 151 L366 136 Z" fill="#cbd5e1"/>
-      <path d="M120 390 L144 404 L126 430 L102 414 Z" fill="#5E60FF"/>
-      <path d="M-190 360 L-170 336 L-144 348 L-165 374 Z" fill="#9641B7"/>
+      <path d="M355 -145 L378 -130 L360 -108 L338 -122 Z" fill="#C88A58"/>
+      <path d="M382 112 L406 126 L390 151 L366 136 Z" fill="#EADBC8"/>
+      <path d="M120 390 L144 404 L126 430 L102 414 Z" fill="#C88A58"/>
+      <path d="M-190 360 L-170 336 L-144 348 L-165 374 Z" fill="#A27B5C"/>
       <path d="M-372 82 L-346 72 L-328 92 L-354 103 Z" fill="#dbe1ff"/>
-      <path d="M-320 -220 L-298 -238 L-274 -224 L-295 -204 Z" fill="#5E60FF"/>
+      <path d="M-320 -220 L-298 -238 L-274 -224 L-295 -204 Z" fill="#C88A58"/>
     </g>
   </g>
 
@@ -345,10 +345,10 @@
     <circle cx="146" cy="198" r="2" fill="#ffffff">
       <animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="884" cy="212" r="3" fill="#5E60FF">
+    <circle cx="884" cy="212" r="3" fill="#C88A58">
       <animate attributeName="opacity" values="0.15;1;0.15" dur="5.6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="812" cy="842" r="2.4" fill="#cbd5e1">
+    <circle cx="812" cy="842" r="2.4" fill="#EADBC8">
       <animate attributeName="opacity" values="0.1;0.9;0.1" dur="4.2s" repeatCount="indefinite"/>
     </circle>
     <circle cx="184" cy="846" r="2" fill="#ffffff">
@@ -363,9 +363,9 @@
 
       <!-- animated border gradient -->
       <linearGradient id="mlBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#2E30FF"/>
-        <stop offset="50%" stop-color="#5E60FF"/>
-        <stop offset="100%" stop-color="#9641B7"/>
+        <stop offset="0%" stop-color="#DAC0A3"/>
+        <stop offset="50%" stop-color="#C88A58"/>
+        <stop offset="100%" stop-color="#A27B5C"/>
         <animateTransform attributeName="gradientTransform"
           type="translate"
           values="-400 0;400 0;-400 0"
@@ -375,9 +375,9 @@
 
       <!-- text gradient -->
       <linearGradient id="mlTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#2E30FF"/>
-        <stop offset="50%" stop-color="#5E60FF"/>
-        <stop offset="100%" stop-color="#9641B7"/>
+        <stop offset="0%" stop-color="#DAC0A3"/>
+        <stop offset="50%" stop-color="#C88A58"/>
+        <stop offset="100%" stop-color="#A27B5C"/>
       </linearGradient>
 
       <!-- glow -->
@@ -408,7 +408,7 @@
       </rect>
 
       <!-- inner scan line -->
-      <rect x="-240" y="-60" width="480" height="4" fill="#2E30FF" opacity="0.15">
+      <rect x="-240" y="-60" width="480" height="4" fill="#DAC0A3" opacity="0.15">
         <animate attributeName="y"
           values="-60;60;-60"
           dur="4.5s"
@@ -416,17 +416,17 @@
       </rect>
 
       <!-- corner pulse dots -->
-      <circle cx="-240" cy="-60" r="3" fill="#2E30FF">
+      <circle cx="-240" cy="-60" r="3" fill="#DAC0A3">
         <animate attributeName="r" values="2;5;2" dur="2s" repeatCount="indefinite"/>
       </circle>
 
-      <circle cx="240" cy="60" r="3" fill="#9641B7">
+      <circle cx="240" cy="60" r="3" fill="#A27B5C">
         <animate attributeName="r" values="2;5;2" dur="2.5s" repeatCount="indefinite"/>
       </circle>
 
       <!-- background glow plate -->
       <rect x="-200" y="-40" width="400" height="80"
-            fill="#2E30FF"
+            fill="#DAC0A3"
             opacity="0.04">
         <animate attributeName="opacity"
           values="0.03;0.08;0.03"
@@ -439,7 +439,7 @@
             font-size="44"
             font-weight="700"
             letter-spacing="5"
-            fill="#2E30FF"
+            fill="#DAC0A3"
             opacity="0.12">
         ENTER ML LAB
         <animate attributeName="y"

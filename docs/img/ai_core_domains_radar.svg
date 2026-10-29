@@ -1,36 +1,36 @@
 <svg width="1500" height="900" viewBox="0 0 1500 900" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1500" y2="900" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#020617"/>
-      <stop offset="50%" stop-color="#07111f"/>
-      <stop offset="100%" stop-color="#0b1024"/>
+      <stop offset="0%" stop-color="#161210"/>
+      <stop offset="50%" stop-color="#231B16"/>
+      <stop offset="100%" stop-color="#1A1412"/>
     </linearGradient>
 
     <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#5E60FF" stop-opacity="0.34"/>
-      <stop offset="42%" stop-color="#9641B7" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#C88A58" stop-opacity="0.34"/>
+      <stop offset="42%" stop-color="#A27B5C" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#161210" stop-opacity="0"/>
     </radialGradient>
 
     <linearGradient id="orbitFlow" x1="0" y1="0" x2="1500" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#2E30FF" stop-opacity="0.1"/>
-      <stop offset="25%" stop-color="#2E30FF" stop-opacity="0.92"/>
-      <stop offset="50%" stop-color="#9641B7" stop-opacity="0.9"/>
-      <stop offset="75%" stop-color="#FF516E" stop-opacity="0.86"/>
-      <stop offset="100%" stop-color="#FF516E" stop-opacity="0.4"/>
+      <stop offset="0%" stop-color="#DAC0A3" stop-opacity="0.1"/>
+      <stop offset="25%" stop-color="#DAC0A3" stop-opacity="0.92"/>
+      <stop offset="50%" stop-color="#A27B5C" stop-opacity="0.9"/>
+      <stop offset="75%" stop-color="#C88A58" stop-opacity="0.86"/>
+      <stop offset="100%" stop-color="#C88A58" stop-opacity="0.4"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-180 0;180 0;-180 0" dur="14s" repeatCount="indefinite"/>
     </linearGradient>
 
     <linearGradient id="domainEdge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#2E30FF"/>
-      <stop offset="45%" stop-color="#9641B7"/>
-      <stop offset="100%" stop-color="#FF516E"/>
+      <stop offset="0%" stop-color="#DAC0A3"/>
+      <stop offset="45%" stop-color="#A27B5C"/>
+      <stop offset="100%" stop-color="#C88A58"/>
     </linearGradient>
 
     <pattern id="starGrid" width="70" height="70" patternUnits="userSpaceOnUse">
-      <circle cx="8" cy="10" r="1.2" fill="#5E60FF" opacity="0.18"/>
-      <circle cx="52" cy="42" r="1" fill="#A557C5" opacity="0.16"/>
-      <path d="M70 0H0V70" fill="none" stroke="#2E30FF" stroke-opacity="0.03"/>
+      <circle cx="8" cy="10" r="1.2" fill="#C88A58" opacity="0.18"/>
+      <circle cx="52" cy="42" r="1" fill="#D4A373" opacity="0.16"/>
+      <path d="M70 0H0V70" fill="none" stroke="#DAC0A3" stroke-opacity="0.03"/>
     </pattern>
 
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
@@ -42,45 +42,45 @@
     </filter>
 
     <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#020617" flood-opacity="0.62"/>
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#161210" flood-opacity="0.62"/>
     </filter>
 
     <style>
       .kicker {
         font: 800 14px 'Segoe UI', Arial, sans-serif;
         letter-spacing: 5px;
-        fill: #5E60FF;
+        fill: #C88A58;
       }
       .title {
         font: 900 46px 'Segoe UI', Arial, sans-serif;
         letter-spacing: 2px;
-        fill: #f8fafc;
+        fill: #FDFBF7;
       }
       .subtitle {
         font: 600 17px 'Segoe UI', Arial, sans-serif;
-        fill: #94a3b8;
+        fill: #D4A373;
       }
       .coreTitle {
         font: 900 28px 'Segoe UI', Arial, sans-serif;
-        fill: #f8fafc;
+        fill: #FDFBF7;
       }
       .coreSub {
         font: 700 14px 'Segoe UI', Arial, sans-serif;
         letter-spacing: 3px;
-        fill: #5E60FF;
+        fill: #C88A58;
       }
       .domainTitle {
         font: 900 19px 'Segoe UI', Arial, sans-serif;
-        fill: #f8fafc;
+        fill: #FDFBF7;
       }
       .domainText {
         font: 650 14px 'Segoe UI', Arial, sans-serif;
-        fill: #cbd5e1;
+        fill: #EADBC8;
       }
       .domainMeta {
         font: 800 11px 'Segoe UI', Arial, sans-serif;
         letter-spacing: 3px;
-        fill: #5E60FF;
+        fill: #C88A58;
       }
       .terminal {
         font: 800 15px 'Cascadia Mono', Consolas, monospace;
@@ -107,10 +107,10 @@
     <ellipse rx="360" ry="210" fill="none" stroke="url(#orbitFlow)" stroke-width="2" stroke-dasharray="16 18">
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="42s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse rx="275" ry="155" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="9 14">
+    <ellipse rx="275" ry="155" fill="none" stroke="#5A4D46" stroke-width="1.5" stroke-dasharray="9 14">
       <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="38s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse rx="170" ry="96" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+    <ellipse rx="170" ry="96" fill="none" stroke="#4A3E3D" stroke-width="1.5"/>
   </g>
 
   <g stroke="url(#orbitFlow)" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="18 16" opacity="0.75" filter="url(#glow)">
@@ -125,7 +125,7 @@
 
   <g transform="translate(625 370)" filter="url(#softShadow)">
     <circle cx="125" cy="100" r="112" fill="rgba(2, 6, 23, 0.84)" stroke="url(#domainEdge)" stroke-width="3"/>
-    <circle cx="125" cy="100" r="74" fill="none" stroke="#2E30FF" stroke-opacity="0.68" stroke-width="2" stroke-dasharray="22 14">
+    <circle cx="125" cy="100" r="74" fill="none" stroke="#DAC0A3" stroke-opacity="0.68" stroke-width="2" stroke-dasharray="22 14">
       <animateTransform attributeName="transform" type="rotate" from="0 125 100" to="360 125 100" dur="24s" repeatCount="indefinite"/>
     </circle>
     <text x="125" y="82" text-anchor="middle" class="coreSub">SYSTEMS CORE</text>

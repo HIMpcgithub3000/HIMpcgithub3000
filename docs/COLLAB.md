@@ -1,126 +1,42 @@
 <p align="center">
-  <img src="../docs/img/collab_system_header.svg" width="100%" alt="Collaboration system header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FDFBF7,35:F5EBE1,70:EADBC8,100:DAC0A3&height=180&section=header&text=Engineering%20Collaboration&fontSize=36&fontColor=2D241E" alt="Collaboration Header" />
 </p>
 
 <p align="center">
-  <a href="../README.md">
-    <img src="../docs/img/navbar/home.svg" width="220px" alt="Home navigation" />
-  </a>
-  <a href="./PROJECTS.md">
-    <img src="../docs/img/navbar/projects.svg" width="220px" alt="Projects navigation" />
-  </a>
-  <a href="./AI_DOMAIN.md">
-    <img src="../docs/img/navbar/ai_domain.svg" width="220px" alt="AI domains navigation" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/HIMpcgithub3000">
-    <img src="../docs/img/navbar/website.svg" width="220px" alt="GitHub Profile navigation" />
-  </a>
-  <a href="./COLLAB.md">
-    <img src="../docs/img/navbar/collaboration.svg" width="220px" alt="Collaboration navigation" />
-  </a>
+  <a href="../README.md"><b>[ 🏠 Home Profile ]</b></a> •
+  <a href="./PROJECTS.md"><b>[ 🧪 Projects Compendium ]</b></a> •
+  <a href="./AI_DOMAIN.md"><b>[ 🧠 AI Domains ]</b></a> •
+  <a href="./COLLAB.md"><b>[ 🤝 Collaboration ]</b></a> •
+  <a href="https://himanshu.social" target="_blank"><b>[ 🌐 Portfolio ]</b></a>
 </p>
 
 ---
 
 <p align="center">
-  <b>Collaboration is most interesting to me when the work has a real system behind it: clear constraints, hard technical questions, and enough ambition to be worth engineering properly.</b>
+  <b>Collaboration is most impactful when anchored around concrete systems: rigorous constraints, hard technical challenges, and clear architectural vision.</b>
 </p>
 
-<p align="center">
-  I am especially interested in LLM workflow builders, conversational/voice AI, healthcare RAG consoles, full-stack application development, and developer tooling.
-</p>
+## 🤝 Areas of Open Collaboration
 
-<p align="center">
-  <img src="../docs/img/collaboration_content.svg" alt="Collaboration matrix for AI systems and full-stack work" />
-</p>
+I am eager to collaborate with engineering teams, researchers, and open-source builders across:
+
+1. **High-Throughput Backend Architecture:** Distributed caching, single-flight locking, PostgreSQL Row-Level Security, connection pooling, and message broker pipelines.
+2. **Real-Time Speech Telephony & Voice AI:** Low-latency acoustic streaming, SIP trunking, multi-provider synthesis, and real-time prompt injection safety guardrails.
+3. **Autonomous Agent Orchestration:** Model Context Protocol (MCP) servers and clients, tool registry execution, and deterministic multi-agent state machines.
+4. **Scientific Machine Learning & Quantitative Modeling:** Sparse dynamics discovery (SINDy), differential equation systems (ODEs), and leakage-free walk-forward backtesting suites.
 
 ---
 
-## Collaboration Protocol
+## 📬 Contact & Coordination
 
-I like collaborations where the idea can survive contact with implementation. That usually means the project has a concrete problem, a visible technical path, and enough discipline to turn exploration into something usable.
+Feel free to initiate conversations or propose technical collaborations:
 
-| Signal | What it means |
-| --- | --- |
-| `BUILD` | There is a real artifact to design, implement, test, or improve. |
-| `RESEARCH` | There is a question worth investigating, not just a vague topic. |
-| `SYSTEMS` | The work involves architecture, reliability, scale, reproducibility, or tooling. |
-| `LEARNING` | The output helps people understand a difficult technical concept more clearly. |
-| `OPEN SOURCE` | The project benefits from public documentation, clean interfaces, and maintainable structure. |
+- **Email:** [himanshusharmamig196@gmail.com](mailto:himanshusharmamig196@gmail.com)
+- **LinkedIn:** [linkedin.com/in/himanshu-sharma-ab7101313](https://www.linkedin.com/in/himanshu-sharma-ab7101313/)
+- **Portfolio:** [himanshu.social](https://himanshu.social/)
 
-## High-Value Collaboration Zones
-
-### Conversational AI & Speech
-Speech-to-text (STT), text-to-speech (TTS), Voice Activity Detection (VAD) concepts, Whisper/wav2vec integrations, child speech understanding, and multilingual conversational UI/UX.
-
-### LLM & Workflow Orchestration
-LLM workflow builders, visual DAG visualizers (React Flow), background topological executors (Trigger.dev workers), media automation pipelines (FFmpeg/Transloadit), and per-user workflow history.
-
-### Healthcare RAG & Evaluation
-Document-QA RAG platforms, streaming chat frontends, embedding models, vector database benchmarks (FAISS/ChromaDB), Ollama settings, and evaluation metrics console exports.
-
-### Full-Stack Engineering
-Fast, clean API services, database optimization (PostgreSQL, Prisma, Drizzle), responsive frontend pages, and end-to-end user dashboards.
-
-### Interactive Technical Labs
-Tools like Vernacular FD Advisor, NextFlow Builder, and MediMind Console: visual environments that make complex ideas easier to explore directly.
-
-### Technical Communication & Developer Experience
-README systems, clean diagrams, documentation structure, and visual interfaces. Good engineering is easier to trust when it is easier to inspect.
-
-## What Makes A Strong First Message
-
-The best collaboration message is short, specific, and grounded.
-
-```text
-Subject: Collaboration idea: <short project name>
-
-I am building / exploring:
-<one or two sentences>
-
-The technical problem is:
-<what is hard, unclear, or worth solving>
-
-What exists now:
-<repo, demo, paper, sketch, notes, or current status>
-
-Where I think you might fit:
-<architecture, frontend/backend, LLM workflow, Speech API, RAG evaluation, etc.>
-
-First useful milestone:
-<something small enough to actually start>
-```
-
-If the first milestone is clear, the conversation can become technical quickly. That is usually a good sign.
-
-## Good Fit / Poor Fit
+<br>
 
 <p align="center">
-  <img src="../docs/img/collaboration_fit_matrix.svg" alt="Good fit and poor fit collaboration comparison matrix" />
-</p>
-
-## Operating Style
-
-<p align="center">
-  <img src="../docs/img/collaboration_operating_style.svg" alt="Operating style matrix for collaboration workflow" />
-</p>
-
-## Contact Vector
-
-If the work connects to LLM orchestration, voice AI, RAG evaluation, or full-stack web applications, send the idea through one of the channels listed in the main [README](../README.md#-contact).
-
-Useful links:
-
-- [Projects](./PROJECTS.md)
-- [AI Domains](./AI_DOMAIN.md)
-- [GitHub Profile](../README.md)
-
----
-
-# 🐍 Contribution Journey
-<p align="center">
-  <img src="https://raw.githubusercontent.com/HIMpcgithub3000/HIMpcgithub3000/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:DAC0A3,50:EADBC8,100:FDFBF7&height=80&section=footer" alt="Footer" />
 </p>

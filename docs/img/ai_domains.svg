@@ -4,23 +4,23 @@
 
     <!-- background -->
     <radialGradient id="bg">
-      <stop offset="0%" stop-color="#0b1220"/>
-      <stop offset="100%" stop-color="#000000"/>
+      <stop offset="0%" stop-color="#261E1A"/>
+      <stop offset="100%" stop-color="#140F0D"/>
     </radialGradient>
 
     <!-- core -->
     <radialGradient id="core">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="30%" stop-color="#5E60FF"/>
-      <stop offset="65%" stop-color="#9641B7"/>
-      <stop offset="100%" stop-color="#020617"/>
+      <stop offset="0%" stop-color="#FDFBF7"/>
+      <stop offset="30%" stop-color="#DAC0A3"/>
+      <stop offset="65%" stop-color="#C88A58"/>
+      <stop offset="100%" stop-color="#140F0D"/>
     </radialGradient>
 
     <!-- links -->
     <linearGradient id="link">
-      <stop offset="0%" stop-color="#2E30FF" stop-opacity="0.1"/>
-      <stop offset="50%" stop-color="#2E30FF" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#9641B7" stop-opacity="0.1"/>
+      <stop offset="0%" stop-color="#DAC0A3" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#C88A58" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8D7B68" stop-opacity="0.1"/>
     </linearGradient>
 
     <!-- glow -->
@@ -44,8 +44,8 @@
     </filter>
 
     <style>
-      .label { font: 600 12px 'Segoe UI'; fill:#e2e8f0; }
-      .title { font:700 26px 'Segoe UI'; fill:#e2e8f0; letter-spacing:2px;}
+      .label { font: 600 12px 'Segoe UI', Arial, sans-serif; fill: #D4A373; letter-spacing: 1px; }
+      .title { font: 700 26px 'Segoe UI', Arial, sans-serif; fill: #FDFBF7; letter-spacing: 2px;}
     </style>
 
   </defs>
@@ -55,10 +55,10 @@
 
   <!-- ambient field -->
   <g filter="url(#bigGlow)" opacity="0.5">
-    <circle cx="250" cy="320" r="200" fill="#2E30FF" opacity="0.05">
+    <circle cx="250" cy="320" r="200" fill="#DAC0A3" opacity="0.06">
       <animate attributeName="r" values="180;220;180" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="250" cy="320" r="150" fill="#9641B7" opacity="0.06">
+    <circle cx="250" cy="320" r="150" fill="#C88A58" opacity="0.07">
       <animate attributeName="r" values="130;170;130" dur="6s" repeatCount="indefinite"/>
     </circle>
   </g>
@@ -67,11 +67,11 @@
   <g transform="translate(250 320)" filter="url(#warp)">
 
     <!-- rotating field -->
-    <ellipse rx="200" ry="120" fill="none" stroke="#2E30FF" stroke-opacity="0.2" stroke-dasharray="6 18">
+    <ellipse rx="200" ry="120" fill="none" stroke="#DAC0A3" stroke-opacity="0.25" stroke-dasharray="6 18">
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
     </ellipse>
 
-    <ellipse rx="120" ry="210" fill="none" stroke="#9641B7" stroke-opacity="0.2" stroke-dasharray="4 20">
+    <ellipse rx="120" ry="210" fill="none" stroke="#C88A58" stroke-opacity="0.25" stroke-dasharray="4 20">
       <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite"/>
     </ellipse>
 
@@ -87,17 +87,17 @@
     </g>
 
     <!-- signal streams -->
-    <circle r="3" fill="#ffffff">
+    <circle r="3" fill="#FDFBF7">
       <animateMotion dur="2.4s" repeatCount="indefinite"
         path="M0,0 C0,-80 0,-140 0,-200"/>
     </circle>
 
-    <circle r="3" fill="#5E60FF">
+    <circle r="3" fill="#DAC0A3">
       <animateMotion dur="3s" repeatCount="indefinite"
         path="M0,0 C60,-20 100,-40 140,-70"/>
     </circle>
 
-    <circle r="3" fill="#cbd5e1">
+    <circle r="3" fill="#C88A58">
       <animateMotion dur="2.8s" repeatCount="indefinite"
         path="M0,0 C80,50 120,80 160,120"/>
     </circle>
@@ -107,41 +107,41 @@
       <circle r="80" fill="url(#core)">
         <animate attributeName="r" values="70;95;70" dur="4s" repeatCount="indefinite"/>
       </circle>
-      <circle r="30" fill="#ffffff"/>
+      <circle r="30" fill="#FDFBF7"/>
     </g>
 
     <!-- nodes -->
     <g filter="url(#glow)">
-      <circle cx="0" cy="-200" r="16" fill="#5E60FF"/>
-      <circle cx="140" cy="-70" r="14" fill="#9641B7"/>
-      <circle cx="160" cy="120" r="14" fill="#9641B7"/>
-      <circle cx="0" cy="210" r="16" fill="#5E60FF"/>
-      <circle cx="-140" cy="120" r="14" fill="#9641B7"/>
-      <circle cx="-120" cy="-70" r="14" fill="#9641B7"/>
+      <circle cx="0" cy="-200" r="16" fill="#DAC0A3"/>
+      <circle cx="140" cy="-70" r="14" fill="#C88A58"/>
+      <circle cx="160" cy="120" r="14" fill="#D4A373"/>
+      <circle cx="0" cy="210" r="16" fill="#DAC0A3"/>
+      <circle cx="-140" cy="120" r="14" fill="#C88A58"/>
+      <circle cx="-120" cy="-70" r="14" fill="#D4A373"/>
     </g>
 
   </g>
 
   <!-- background particles -->
   <g opacity="0.6" filter="url(#glow)">
-    <circle cx="80" cy="200" r="2">
+    <circle cx="80" cy="200" r="2" fill="#FDFBF7">
       <animate attributeName="opacity" values="0.1;1;0.1" dur="5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="420" cy="240" r="2.5" fill="#5E60FF">
+    <circle cx="420" cy="240" r="2.5" fill="#DAC0A3">
       <animate attributeName="opacity" values="0.1;1;0.1" dur="6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="400" cy="580" r="2" fill="#cbd5e1">
+    <circle cx="400" cy="580" r="2" fill="#C88A58">
       <animate attributeName="opacity" values="0.1;1;0.1" dur="4s" repeatCount="indefinite"/>
     </circle>
   </g>
 
   <!-- labels -->
-  <text x="250" y="80" text-anchor="middle" class="label">ML / DL</text>
-  <text x="410" y="250" class="label">GenAI</text>
-  <text x="420" y="500" class="label">Multi-Agent</text>
-  <text x="250" y="620" text-anchor="middle" class="label">RL</text>
-  <text x="40" y="500" class="label">MLOps</text>
-  <text x="40" y="250" class="label">Robotics</text>
+  <text x="250" y="80" text-anchor="middle" class="label">VOICE AI</text>
+  <text x="410" y="250" class="label">AGENTIC</text>
+  <text x="420" y="500" class="label">RAG</text>
+  <text x="250" y="620" text-anchor="middle" class="label">SCIML</text>
+  <text x="40" y="500" class="label">FINTECH</text>
+  <text x="40" y="250" class="label">VISION</text>
 
   <!-- title -->
   <text x="250" y="45" text-anchor="middle" class="title">

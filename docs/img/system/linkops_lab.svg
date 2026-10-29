@@ -1,0 +1,49 @@
+<svg width="760" height="250" viewBox="0 0 760 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="760" y2="250">
+      <stop offset="0%" stop-color="#191411"/>
+      <stop offset="100%" stop-color="#231B16"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DAC0A3"/>
+      <stop offset="50%" stop-color="#C88A58"/>
+      <stop offset="100%" stop-color="#8D7B68"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-120 0;120 0;-120 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .meta { font: 800 13px 'Segoe UI', Arial, sans-serif; letter-spacing: 4px; fill: #D4A373; }
+      .title { font: 900 42px 'Segoe UI', Arial, sans-serif; fill: #FDFBF7; }
+      .desc { font: 600 18px 'Segoe UI', Arial, sans-serif; fill: #EADBC8; }
+      .tag { font: 800 12px 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; fill: #FDFBF7; }
+    </style>
+  </defs>
+  <rect width="760" height="250" rx="24" fill="url(#bg)"/>
+  <rect x="6" y="6" width="748" height="238" rx="20" fill="none" stroke="url(#edge)" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="340 86" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-426" dur="16s" repeatCount="indefinite"/>
+  </rect>
+  <g transform="translate(80 65)" filter="url(#glow)">
+    <circle cx="75" cy="60" r="42" fill="none" stroke="#DAC0A3" stroke-width="3"/>
+    <path d="M45 60H105M75 30V90" stroke="#C88A58" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="75" cy="60" r="14" fill="#C88A58">
+      <animate attributeName="r" values="12;16;12" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="280" y="74" class="meta">HIGH-THROUGHPUT ROUTER</text>
+  <text x="280" y="126" class="title">LINKOPS</text>
+  <text x="280" y="161" class="desc">Sub-3ms Redis cache engine &amp; PostgreSQL RLS isolation.</text>
+  <g transform="translate(280 190)">
+    <rect width="120" height="26" rx="13" fill="#2B211B" stroke="#DAC0A3" stroke-opacity=".55"/>
+    <text x="60" y="18" text-anchor="middle" class="tag">SUB-3MS</text>
+  </g>
+  <g transform="translate(415 190)">
+    <rect width="110" height="26" rx="13" fill="#2B211B" stroke="#C88A58" stroke-opacity=".55"/>
+    <text x="55" y="18" text-anchor="middle" class="tag">REDIS</text>
+  </g>
+</svg>

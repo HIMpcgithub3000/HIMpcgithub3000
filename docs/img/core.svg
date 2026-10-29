@@ -1,45 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="100%" height="430">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#020617"/>
-      <stop offset="100%" stop-color="#0b1220"/>
+      <stop offset="0%" stop-color="#191411"/>
+      <stop offset="100%" stop-color="#231B16"/>
     </linearGradient>
 
     <linearGradient id="panelStroke" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#334155"/>
-      <stop offset="48%" stop-color="#2E30FF"/>
-      <stop offset="72%" stop-color="#9641B7"/>
-      <stop offset="100%" stop-color="#334155"/>
+      <stop offset="0%" stop-color="#4A3E3D"/>
+      <stop offset="48%" stop-color="#DAC0A3"/>
+      <stop offset="72%" stop-color="#C88A58"/>
+      <stop offset="100%" stop-color="#4A3E3D"/>
     </linearGradient>
 
     <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2E30FF"/>
-      <stop offset="50%" stop-color="#9641B7"/>
-      <stop offset="100%" stop-color="#FF516E"/>
+      <stop offset="0%" stop-color="#DAC0A3"/>
+      <stop offset="50%" stop-color="#C88A58"/>
+      <stop offset="100%" stop-color="#8D7B68"/>
     </linearGradient>
 
     <linearGradient id="lineFlow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#2E30FF" stop-opacity="0"/>
-      <stop offset="22%" stop-color="#2E30FF" stop-opacity="0.85"/>
-      <stop offset="52%" stop-color="#9641B7" stop-opacity="0.9"/>
-      <stop offset="82%" stop-color="#2E30FF" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#2E30FF" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#DAC0A3" stop-opacity="0"/>
+      <stop offset="22%" stop-color="#DAC0A3" stop-opacity="0.85"/>
+      <stop offset="52%" stop-color="#C88A58" stop-opacity="0.9"/>
+      <stop offset="82%" stop-color="#DAC0A3" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#DAC0A3" stop-opacity="0"/>
       <animateTransform attributeName="gradientTransform" type="translate" values="-120 0;120 0;-120 0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
 
     <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#2E30FF" stop-opacity="0.24"/>
-      <stop offset="52%" stop-color="#9641B7" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#C88A58" stop-opacity="0.25"/>
+      <stop offset="52%" stop-color="#DAC0A3" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#191411" stop-opacity="0"/>
     </radialGradient>
 
     <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#2E30FF" stroke-opacity="0.045" stroke-width="1">
+      <path d="M34 0H0V34" fill="none" stroke="#DAC0A3" stroke-opacity="0.04" stroke-width="1">
         <animateTransform attributeName="transform" type="translate" values="0 0;34 34;0 0" dur="26s" repeatCount="indefinite"/>
       </path>
     </pattern>
 
-    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="glowCream" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="4" result="b">
         <animate attributeName="stdDeviation" values="3.5;5;3.5" dur="4s" repeatCount="indefinite"/>
       </feGaussianBlur>
@@ -50,40 +50,40 @@
     </filter>
 
     <filter id="panelShadow" x="-15%" y="-20%" width="130%" height="145%">
-      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#020617" flood-opacity="0.55"/>
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#140F0D" flood-opacity="0.6"/>
     </filter>
 
     <style>
       .title {
         font: 700 22px 'Segoe UI', Arial, sans-serif;
-        fill: #e2e8f0;
-        letter-spacing: 1px;
+        fill: #FDFBF7;
+        letter-spacing: 2px;
       }
       .subtitle {
         font: 500 12px 'Segoe UI', Arial, sans-serif;
-        fill: #94a3b8;
+        fill: #D4A373;
         letter-spacing: 1px;
       }
       .section {
-        font: 700 26px 'Segoe UI', Arial, sans-serif;
-        fill: #f8fafc;
+        font: 700 24px 'Segoe UI', Arial, sans-serif;
+        fill: #FDFBF7;
         letter-spacing: 1px;
       }
       .sectionSub {
-        font: 500 14px 'Segoe UI', Arial, sans-serif;
-        fill: #94a3b8;
+        font: 500 13px 'Segoe UI', Arial, sans-serif;
+        fill: #D4A373;
       }
       .item {
-        font: 500 15px 'Segoe UI', Arial, sans-serif;
-        fill: #dbeafe;
+        font: 500 14px 'Segoe UI', Arial, sans-serif;
+        fill: #EADBC8;
       }
       .bullet {
-        fill: #2E30FF;
+        fill: #C88A58;
       }
       .frame {
-        fill: rgba(2,6,23,0.68);
+        fill: rgba(28, 22, 18, 0.75);
         stroke: url(#panelStroke);
-        stroke-width: 2;
+        stroke-width: 1.5;
         rx: 18;
       }
       .innerLine {
@@ -110,22 +110,22 @@
   <line x1="70" y1="52" x2="455" y2="52" class="innerLine"/>
   <line x1="745" y1="52" x2="1130" y2="52" class="innerLine"/>
 
-  <g transform="translate(600,52)" filter="url(#glowCyan)">
-    <circle r="25" fill="none" stroke="#1e293b" stroke-width="2"/>
-    <circle r="18" fill="none" stroke="#2E30FF" stroke-width="3" stroke-dasharray="22 10">
+  <g transform="translate(600,52)" filter="url(#glowCream)">
+    <circle r="25" fill="none" stroke="#4A3E3D" stroke-width="2"/>
+    <circle r="18" fill="none" stroke="#DAC0A3" stroke-width="3" stroke-dasharray="22 10">
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <circle r="9" fill="#2E30FF">
+    <circle r="9" fill="#C88A58">
       <animate attributeName="r" values="8;10;8" dur="3s" repeatCount="indefinite"/>
     </circle>
-    <line x1="-32" y1="0" x2="-22" y2="0" stroke="#2E30FF" stroke-width="3" stroke-linecap="round"/>
-    <line x1="22" y1="0" x2="32" y2="0" stroke="#2E30FF" stroke-width="3" stroke-linecap="round"/>
-    <line x1="0" y1="-32" x2="0" y2="-22" stroke="#2E30FF" stroke-width="3" stroke-linecap="round"/>
-    <line x1="0" y1="22" x2="0" y2="32" stroke="#2E30FF" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-32" y1="0" x2="-22" y2="0" stroke="#DAC0A3" stroke-width="3" stroke-linecap="round"/>
+    <line x1="22" y1="0" x2="32" y2="0" stroke="#DAC0A3" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="-32" x2="0" y2="-22" stroke="#DAC0A3" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="22" x2="0" y2="32" stroke="#DAC0A3" stroke-width="3" stroke-linecap="round"/>
   </g>
 
   <text x="600" y="103" text-anchor="middle" class="title">SYSTEM CORE</text>
-  <text x="600" y="126" text-anchor="middle" class="subtitle">runtime capabilities • cognitive stack • engineering doctrine</text>
+  <text x="600" y="126" text-anchor="middle" class="subtitle">production architecture • agent runtimes • engineering doctrine</text>
 
   <!-- panels -->
   <g filter="url(#panelShadow)">
@@ -147,46 +147,49 @@
 
   <!-- panel 1 -->
   <text x="95" y="210" class="section">EXPERIENCE</text>
-  <text x="95" y="233" class="sectionSub">SDE &amp; Frontend Internships</text>
+  <text x="95" y="233" class="sectionSub">Blostem SDE Intern (Production)</text>
 
   <circle cx="102" cy="267" r="3.5" class="bullet"/>
-  <text x="118" y="272" class="item">Blostem SDE Intern (FastAPI &amp; LLMs)</text>
+  <text x="118" y="272" class="item">Nexus: 1,419-line MCP dispatch runtime</text>
 
   <circle cx="102" cy="297" r="3.5" class="bullet"/>
-  <text x="118" y="302" class="item">UptoSkills Frontend Intern (React)</text>
+  <text x="118" y="302" class="item">VoiceBrew: Sub-200ms telephony stream</text>
 
   <circle cx="102" cy="327" r="3.5" class="bullet"/>
-  <text x="118" y="332" class="item">PitchX Full Stack Intern</text>
+  <text x="118" y="332" class="item">Dual-layer guardrails: 100% defense</text>
 
   <circle cx="102" cy="357" r="3.5" class="bullet"/>
-  <text x="118" y="362" class="item">Reduced manual usage audits by 93%</text>
+  <text x="118" y="362" class="item">Core lending API: 5 NBFCs &amp; 2 banks</text>
 
   <!-- panel 2 -->
-  <text x="465" y="210" class="section">INTERESTS</text>
-  <text x="465" y="233" class="sectionSub">AI • LLM • RAG • VOICE</text>
+  <text x="465" y="210" class="section">FLAGSHIP WORK</text>
+  <text x="465" y="233" class="sectionSub">Distributed • Agents • SciML</text>
 
   <circle cx="472" cy="267" r="3.5" class="bullet"/>
-  <text x="488" y="272" class="item">15-language Voice &amp; RAG assistant</text>
+  <text x="488" y="272" class="item">LinkOps: Sub-3ms Redis router &amp; RLS</text>
 
   <circle cx="472" cy="297" r="3.5" class="bullet"/>
-  <text x="488" y="302" class="item">LLM DAG workflow builder (React Flow)</text>
+  <text x="488" y="302" class="item">AI PR Assistant: CrewAI &amp; Kafka P0-P3</text>
 
   <circle cx="472" cy="327" r="3.5" class="bullet"/>
-  <text x="488" y="332" class="item">Web Speech API, STT/TTS &amp; VAD</text>
+  <text x="488" y="332" class="item">SciML: SINDy ODE (47.6% lower RMSE)</text>
 
   <circle cx="472" cy="357" r="3.5" class="bullet"/>
-  <text x="488" y="362" class="item">FAISS, Chroma, RRF &amp; Reranking</text>
+  <text x="488" y="362" class="item">Vernacular FD: 15-lang voice RAG</text>
 
   <!-- panel 3 -->
-  <text x="835" y="210" class="section">PHILOSOPHY</text>
-  <text x="835" y="233" class="sectionSub">EDUCATION &amp; SKILLS</text>
+  <text x="835" y="210" class="section">DOCTRINE</text>
+  <text x="835" y="233" class="sectionSub">BML Munjal Univ (B.Tech CS 2027)</text>
 
   <circle cx="842" cy="267" r="3.5" class="bullet"/>
-  <text x="858" y="272" class="item">B.Tech Computer Science student</text>
+  <text x="858" y="272" class="item">Data Science &amp; AI in Financial Mkts</text>
 
-  <circle cx="842" cy="307" r="3.5" class="bullet"/>
-  <text x="858" y="312" class="item">React, Next.js, Tailwind, Zustand</text>
+  <circle cx="842" cy="297" r="3.5" class="bullet"/>
+  <text x="858" y="302" class="item">PostgreSQL RLS • Redis Single-Flight</text>
 
-  <circle cx="842" cy="347" r="3.5" class="bullet"/>
-  <text x="858" y="352" class="item">Python, FastAPI, Node.js, Prisma</text>
+  <circle cx="842" cy="327" r="3.5" class="bullet"/>
+  <text x="858" y="332" class="item">FastAPI • Node.js • TypeScript • Python</text>
+
+  <circle cx="842" cy="357" r="3.5" class="bullet"/>
+  <text x="858" y="362" class="item">PyTorch • LangGraph • Docker • AWS</text>
 </svg>
